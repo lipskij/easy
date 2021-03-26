@@ -17,40 +17,34 @@ const Contacts = () => {
       <div className={styles.container}>
         <div className={styles.list}>
           <p>Youtube</p>
-          <Link href='https://www.youtube.com/'>
-            <a
-              className={styles.logo}
-              href='https://www.youtube.com/'
-              target='_blank'
-            >
+          <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
+            <a className={styles.logo} target='_blank'>
               <Image src='/youtube.png' alt='yt-logo' width={50} height={50} />
             </a>
           </Link>
           <p>Facebook </p>
-          <a
-            className={styles.logo}
-            href='https://www.facebook.com/'
-            target='_blank'
-          >
-            <Image src='/facebook.png' alt='fb-logo' width={50} height={50} />
-          </a>
+          <Link href='https://www.facebook.com/easycreativeproduction/'>
+            <a className={styles.logo} target='_blank'>
+              <Image src='/facebook.png' alt='fb-logo' width={50} height={50} />
+            </a>
+          </Link>
           <p>Vimeo</p>
-          <a className={styles.logo} href='https://vimeo.com/' target='_blank'>
-            <Image src='/vimeo.png' alt='vimeo-logo' width={50} height={50} />
-          </a>
+          <Link href='https://vimeo.com/user9888997'>
+            <a className={styles.logo} target='_blank'>
+              <Image src='/vimeo.png' alt='vimeo-logo' width={50} height={50} />
+            </a>
+          </Link>
           <p>Instagram</p>
-          <a
-            className={styles.logo}
-            href='https://www.instagram.com/'
-            target='_blank'
-          >
-            <Image
-              src='/instagram.png'
-              alt='instagram-logo'
-              width={50}
-              height={50}
-            />
-          </a>
+          <Link href='https://www.instagram.com/easycreativeproduction/'>
+            <a className={styles.logo} target='_blank'>
+              <Image
+                src='/instagram.png'
+                alt='instagram-logo'
+                width={50}
+                height={50}
+              />
+            </a>
+          </Link>
         </div>
       </div>
       <Footer />

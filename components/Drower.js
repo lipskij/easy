@@ -6,7 +6,7 @@ const Drawer = ({ children, isOpen, className = "" }) => {
         
       <style jsx>{`
         .root {
-          background-color: #34eb77;
+          background-color: #b3ec79;
           position: absolute;
           width: 98vw;
           height: 100vh;
