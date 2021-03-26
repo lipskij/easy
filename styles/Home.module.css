@@ -18,8 +18,8 @@
 
 .card{
   display: flex;
-  width: 7rem;
-  height: 7rem;
+  width: 9rem;
+  height: 9rem;
   background-color: white;
   align-items: center;
   justify-content: space-around;
@@ -42,17 +42,18 @@
 
 .navigationCard {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
-  width: 75vw;
-  height: 65vh;
+  width: 85vw;
+  height: 75vh;
   border: thin solid black;
   box-shadow: 5px 5px 5px rgb(167, 162, 145);
   border-radius: 10px;
-  margin: 3rem 0 3rem 0;
+  margin: 6rem 0 6rem 0;
 }
+
 
 @media (max-width: 600px) {
   .grid {

@@ -17,7 +17,7 @@ export default function Home() {
         <div className={styles.navigationCard}>
           <Link href='/commercial'>
             <a className={styles.card} style={{ backgroundColor: "#ede6a8" }}>
-              C
+              Commercial
             </a>
           </Link>
           <Link href='/art'>
@@ -32,26 +32,27 @@ export default function Home() {
           </Link>
           <Link href='/p'>
             <a className={styles.card} style={{ backgroundColor: "#d0eda8" }}>
-              P
+              Private
             </a>
           </Link>
+
           <Link href='/m'>
-            <a className={styles.card} style={{ backgroundColor: "#a8edd3" }}>
-              M
+            <a className={styles.card} style={{ backgroundColor: "#a8edd3", marginLeft: '14rem' }}>
+              Mokymai
             </a>
           </Link>
           <Link href='/d'>
-            <a className={styles.card} style={{ backgroundColor: "#a8d4ed" }}>
-              D
+            <a className={styles.card} style={{ backgroundColor: "#a8d4ed" ,marginLeft: '14rem'}}>
+              Dirbtuves
             </a>
           </Link>
-          <Link href='/idk'>
+          {/* <Link href='/idk'>
             <a className={styles.card} style={{ backgroundColor: "#bfa8ed" }}>
               ¯\_(ツ)_/¯
             </a>
-          </Link>
+          </Link> */}
           <Link href='/contacts'>
-            <a className={styles.card} style={{ backgroundColor: "#eda8d5" }}>
+            <a className={styles.card} style={{ backgroundColor: "#eda8d5",marginLeft: '14rem' }}>
               Contacts
             </a>
           </Link>
