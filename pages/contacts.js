@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import styles from "../styles/Contacts.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +9,10 @@ import Nav from "../components/Nav";
 const Contacts = () => {
   return (
     <>
+      <Head>
+        <title>EASY</title>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <Nav />
       <div className={styles.container}>
         <div className={styles.list}>
