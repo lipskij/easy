@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #cdff04;
+  background-color: #0c0c0c;
 }
 
 .main {
@@ -14,21 +14,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .card{
   display: flex;
   width: 7rem;
   height: 7rem;
-  background-color: #eaeaea;
+  background-color: white;
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
-  
+  border:solid thin black;
   transition-duration: 0.3s;
   text-decoration: none;
-  font-size: 1.4rem;
-  color: black;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: rgb(44, 63, 42);
   text-align: center;
 }
 
@@ -48,8 +50,6 @@
   width: 75vw;
   height: 65vh;
   border-radius: 10px;
-  border:solid thin black;
-  box-shadow: 5px 5px 5px #aebd73;
   margin-top: 2rem;
   background-color: cornsilk;
 }
