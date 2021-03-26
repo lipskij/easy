@@ -19,42 +19,42 @@ const Nav = () => {
         <ul onClick={() => setIsOpen(!isOpen)}>
           <li>
             <Link href='/'>
-              <a href='/'>Home</a>
+              <a>Home</a>
             </Link>
           </li>
           <li>
-            <Link href='/'>
-              <a href='/'>Commercial</a>
+            <Link href='/commercial'>
+              <a>Commercial</a>
             </Link>
           </li>
           <li>
             <Link href='/art'>
-              <a href='/art'>Art</a>
+              <a>Art</a>
             </Link>
           </li>
           <li>
-            <Link href='/'>
-              <a href='/'>Cultural Events</a>
+            <Link href='/culturalEvents'>
+              <a>Cultural Events</a>
             </Link>
           </li>
           <li>
-            <Link href='/'>
-              <a href='/'>Private</a>
+            <Link href='/p'>
+              <a href='/p'>Private</a>
             </Link>
           </li>
           <li>
-            <Link href='/'>
-              <a href='/'>Mokymai</a>
+            <Link href='/m'>
+              <a>Mokymai</a>
             </Link>
           </li>
           <li>
-            <Link href='/'>
+            <Link href='/d'>
               <a href='/'>Dirbtuves</a>
             </Link>
           </li>
           <li>
-            <Link href='/'>
-              <a href='/'>IDK</a>
+            <Link href='/idk'>
+              <a>IDK</a>
             </Link>
           </li>
           <li>

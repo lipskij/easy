@@ -1,9 +1,9 @@
 import React from "react";
-import Head from "next/head";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
+import Head from 'next/head';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
-const Art = () => {
+const P = () => {
   return (
     <div>
       <Head>
@@ -12,11 +12,11 @@ const Art = () => {
       </Head>
       <Nav />
       <main>
-        <h1>Art Page</h1>
+        <h1>Private Page</h1>
       </main>
       <Footer />
     </div>
   );
 };
 
-export default Art;
+export default P;

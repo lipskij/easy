@@ -3,7 +3,7 @@ import Head from "next/head";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-const Art = () => {
+const M = () => {
   return (
     <div>
       <Head>
@@ -12,11 +12,11 @@ const Art = () => {
       </Head>
       <Nav />
       <main>
-        <h1>Art Page</h1>
+        <h1>Mokymai Page</h1>
       </main>
       <Footer />
     </div>
   );
 };
 
-export default Art;
+export default M;
