@@ -23,35 +23,43 @@
   background-color: white;
   align-items: center;
   justify-content: space-around;
-  border-radius: 10px;
-  border:solid thin black;
+  border-radius: 50%;
   transition-duration: 0.3s;
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 900;
   text-align: center;
-  color: black
+  color: black;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #8fbdbb, #E4FF1A);
+
 }
 
 .card:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition-duration: 0.3s;
-  box-shadow: 5px 5px 5px rgb(167, 162, 145);
+  box-shadow: 5px 5px 5px rgb(199, 196, 186);
 }
 
 .navigationCard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
   width: 85vw;
   height: 75vh;
-  border: thin solid black;
-  box-shadow: 5px 5px 5px rgb(167, 162, 145);
-  border-radius: 10px;
   margin: 6rem 0 6rem 0;
+}
+
+.navIndividualCard p {
+  font-size: 1.2rem;
+}
+
+.homeText {
+  font-size: 2rem;
+  padding-top: 5rem;
 }
 
 
