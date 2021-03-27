@@ -12,11 +12,23 @@
   gap: 2rem;
   width: 80vw;
   align-items: center;
-  border: solid thin black;
-  box-shadow: 5px 5px 5px rgb(196, 194, 194);
-  border-radius: 10px;
-  padding: 2rem;
   margin-bottom: 5rem;
+}
+
+.listItem {
+  border: solid thin grey;
+  box-shadow: 5px 5px 5px rgb(196, 194, 194);
+  border-radius: 10px; 
+  padding: 2rem;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.listItem p {
+  text-align: center;
 }
 
 .list p {

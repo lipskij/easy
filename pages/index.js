@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
@@ -15,7 +16,10 @@ export default function Home() {
       <main className={styles.main}>
         <Banner />
         <div className={styles.homeText}>
-          <h1>Mūsų veikla</h1>
+          <h1>
+            Mūsų veikla
+          </h1>
+            <Image src='/clapper.png' alt='clapper' width={250} height={250} />
         </div>
         <div className={styles.navigationCard}>
           <div className={styles.navIndividualCard}>

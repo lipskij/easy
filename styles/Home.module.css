@@ -31,7 +31,7 @@
   text-align: center;
   color: black;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, #8fbdbb, #E4FF1A);
+  background: linear-gradient(45deg, #E4FF1A, #8fbdbb);
 
 }
 
@@ -50,7 +50,7 @@
   justify-items: center;
   width: 85vw;
   height: 75vh;
-  margin: 6rem 0 6rem 0;
+  margin: 0 0 4rem 0;
 }
 
 .navIndividualCard p {
@@ -58,8 +58,12 @@
 }
 
 .homeText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 2rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
+  margin-left: 5rem;
 }
 
 
