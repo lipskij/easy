@@ -25,7 +25,7 @@ body {
 .footer-logos {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   width: 12rem;
 }
 
@@ -91,4 +91,10 @@ body {
   background-color: black;
   padding-bottom: 2rem;
   width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .banner-vid {
+    display: none;
+  }
 }

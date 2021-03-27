@@ -19,7 +19,7 @@ const Contacts = () => {
           <div className={styles.listItem}>
             <p>Youtube</p>
             <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
-              <a className={styles.logo} target='_blank'>
+              <a className={styles.logo} target='_blank' rel="noopener">
                 <Image
                   src='/youtube.png'
                   alt='yt-logo'
@@ -33,7 +33,7 @@ const Contacts = () => {
           <div className={styles.listItem}>
             <p>Facebook </p>
             <Link href='https://www.facebook.com/easycreativeproduction/'>
-              <a className={styles.logo} target='_blank'>
+              <a className={styles.logo} target='_blank' rel="noopener">
                 <Image
                   src='/facebook.png'
                   alt='fb-logo'
@@ -47,7 +47,7 @@ const Contacts = () => {
           <div className={styles.listItem}>
             <p>Vimeo</p>
             <Link href='https://vimeo.com/user9888997'>
-              <a className={styles.logo} target='_blank'>
+              <a className={styles.logo} target='_blank' rel="noopener">
                 <Image
                   src='/vimeo.png'
                   alt='vimeo-logo'
@@ -61,7 +61,7 @@ const Contacts = () => {
           <div className={styles.listItem}>
             <p>Instagram</p>
             <Link href='https://www.instagram.com/easycreativeproduction/'>
-              <a className={styles.logo} target='_blank'>
+              <a className={styles.logo} target='_blank' rel="noopener">
                 <Image
                   src='/instagram.png'
                   alt='instagram-logo'

@@ -6,24 +6,24 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer-logos'>
-        <Link href='youtube.com'>
-          <a target='_blank'>
+        <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
+          <a rel="noopener" target='_blank'>
             <Image src='/youtube.png' alt='yt-logo' width={25} height={25} />
           </a>
         </Link>
-        <Link href='youtube.com'>
-          <a target='_blank'>
-            <Image src='/facebook.png' alt='yt-logo' width={25} height={25} />
+        <Link href='https://www.facebook.com/easycreativeproduction/'>
+          <a rel="noopener" target='_blank'>
+            <Image src='/facebook.png' alt='fb-logo' width={25} height={25} />
           </a>
         </Link>
-        <Link href='youtube.com'>
-          <a target='_blank'>
-            <Image src='/instagram.png' alt='yt-logo' width={25} height={25} />
+        <Link href='https://www.instagram.com/easycreativeproduction/'>
+          <a rel="noopener" target='_blank'>
+            <Image src='/instagram.png' alt='instagram-logo' width={25} height={25} />
           </a>
         </Link>
-        <Link href='youtube.com'>
-          <a target='_blank'>
-            <Image src='/vimeo.png' alt='yt-logo' width={25} height={25} />
+        <Link href='https://vimeo.com/user9888997'>
+          <a rel="noopener" target='_blank'>
+            <Image src='/vimeo.png' alt='vimeo-logo' width={25} height={25} />
           </a>
         </Link>
       </div>
