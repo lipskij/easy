@@ -18,8 +18,8 @@
 
 .card{
   display: flex;
-  width: 9rem;
-  height: 9rem;
+  width: 12rem;
+  height: 12rem;
   background-color: white;
   align-items: center;
   justify-content: space-around;
