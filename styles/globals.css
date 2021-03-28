@@ -91,6 +91,41 @@ body {
   background-color: black;
   padding-bottom: 2rem;
   width: 100%;
+  animation: btn  0.5s ease reverse;
+  animation-delay: 2.5s;
+}
+
+.homebtndiv {
+  display: flex;
+  width: 60vw;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.homebtn {
+  color: black;
+  transition-duration: 0.3s;
+  animation: btn 0.3s ease;
+  border: none;
+}
+.homebtn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  color: white;
+  background: black;
+}
+
+@keyframes btn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 480px) {

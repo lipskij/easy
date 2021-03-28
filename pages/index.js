@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
+import HomeCon from '../components/HomeCon';
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Banner />
+        <HomeCon />
+        {/* <Banner />
         <div className={styles.homeText}>
           <h1>
             Mūsų veikla
@@ -80,7 +82,7 @@ export default function Home() {
             </Link>
             <p>Susisiekite su mumis!</p>
           </div>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>
