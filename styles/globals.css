@@ -100,7 +100,7 @@ nav li {
   background-color: black;
   padding-bottom: 2rem;
   width: 100%;
-  animation: btn  0.5s ease reverse;
+  animation: bannerVid  0.5s ease;
   animation-delay: 2.5s;
 }
 
@@ -136,6 +136,17 @@ nav li {
   to {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+@keyframes bannerVid {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
   }
 }
 

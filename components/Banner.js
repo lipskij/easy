@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,12 +9,23 @@ import Link from "next/link";
 // clean minimal style
 // galerijoj uzvedus ant nuotrukos full color from black n white
 // navigacija sticky: DONE
+// set up live
+// nav icons no color
 
 const Banner = () => {
   const [buttons, setButtons] = useState(false);
   useEffect(() => {
     setTimeout(() => {
-      setButtons(
+      setButtons(true);
+    }, 3000);
+    return () => {
+      setButtons(null);
+    };
+  }, []);
+
+  return (
+    <>
+      {buttons ? (
         <div className='homebtndiv'>
           <button className='homebtn'>
             <Link href='/creativeProduction'>
@@ -42,13 +52,6 @@ const Banner = () => {
             </Link>
           </button>
         </div>
-      );
-    }, 3000);
-  }, []);
-  return (
-    <>
-      {buttons ? (
-        buttons
       ) : (
         <div className='banner-vid'>
           <video
