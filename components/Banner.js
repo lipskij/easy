@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 // baner video 15s
 // after banner 2 buttons 'art' 'commerce'
@@ -12,14 +13,34 @@ import Image from "next/image";
 
 const Banner = () => {
   const [buttons, setButtons] = useState(false);
-  setTimeout(() => {
-    setButtons(
-      <div className='homebtndiv'>
-        <button className='homebtn'><Image src='/easylog2.svg' alt='logh' width={270} height={200}/></button>
-        <button className='homebtn'><Image src='/easyart.png' alt='logh' width={270} height={200}/></button>
-      </div>
-    );
-  }, 3000);
+  useEffect(() => {
+    setTimeout(() => {
+      setButtons(
+        <div className='homebtndiv'>
+          <button className='homebtn'>
+            <Link href='/art'>
+              <a>
+                <Image
+                  src='/butonlogo1.png'
+                  alt='button logo'
+                  width={270}
+                  height={200}
+                />
+              </a>
+            </Link>
+          </button>
+          <button className='homebtn'>
+            <Image
+              src='/buttonlogo2.png'
+              alt='button logo'
+              width={270}
+              height={200}
+            />
+          </button>
+        </div>
+      );
+    }, 3000);
+  }, []);
   return (
     <>
       <div className='banner'>
@@ -29,10 +50,20 @@ const Banner = () => {
         buttons
       ) : (
         <div className='banner-vid'>
-          <video width='100%' height='auto' autoPlay muted loop>
+          <video
+            controls
+            width='100%'
+            height='auto'
+            autoPlay
+            muted
+            loop
+            disablePictureInPicture
+            controlsList='nofullscreen nodownload noremoteplayback'
+          >
             <source src='EASYshowreel.mp4' type='video/mp4' />
             Your browser does not support the video tag.
           </video>
+          {/* <button type='button' className='sound-control'>Mute</button> */}
         </div>
       )}
     </>

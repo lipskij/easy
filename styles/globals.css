@@ -104,17 +104,19 @@ body {
 }
 
 .homebtn {
-  color: black;
+  display: flex;
   transition-duration: 0.3s;
-  animation: btn 0.3s ease;
+  animation: btn 0.5s ease;
   border: none;
+  align-items: center;
+  justify-content: center;
+  background: black;
 }
 .homebtn:hover {
   cursor: pointer;
   transform: scale(1.05);
   transition-duration: 0.3s;
-  color: white;
-  background: black;
+  box-shadow: 5px 5px 5px grey;
 }
 
 @keyframes btn {
