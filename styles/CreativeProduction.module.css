@@ -73,11 +73,4 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
-  /* align-items: flex-start; */
-}
-.secondSection div:nth-child(3n) {
-  grid-column: 2/2;
-}
-.secondSection div:nth-child() {
-  grid-column: 1/2;
 }

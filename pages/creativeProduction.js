@@ -82,10 +82,12 @@ const CulturalEvents = () => {
             />
           </div>
           <div className={styles.sectionText}>
-            <p>Trumpas aprasymas,kuri sugalvos Algina.</p>
-            <p>Ir kai jau bus keli aprasymai tuomet idesiu cia.</p>
-            <p>Dar biskis tuscio teksto.</p>
-            <p>Ir dar kazkiek tuscio teksto.</p>
+            <p>
+              Trumpas aprasymas,kuri sugalvos Algina.<br></br>
+              Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
+              Dar biskis tuscio teksto.<br></br>
+              Ir dar kazkiek tuscio teksto.
+            </p>
           </div>
           <div>
             <Image
@@ -96,10 +98,44 @@ const CulturalEvents = () => {
             />
           </div>
           <div className={styles.sectionText}>
-            <p>Trumpas aprasymas,kuri sugalvos Algina.</p>
-            <p>Ir kai jau bus keli aprasymai tuomet idesiu cia.</p>
-            <p>Dar biskis tuscio teksto.</p>
-            <p>Ir dar kazkiek tuscio teksto.</p>
+            <p>
+              Trumpas aprasymas,kuri sugalvos Algina.<br></br>
+              Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
+              Dar biskis tuscio teksto.<br></br>
+              Ir dar kazkiek tuscio teksto.
+            </p>
+          </div>
+          <div>
+            <Image
+              src='/easylog2.svg'
+              alt='reklamos'
+              width={600}
+              height={300}
+            />
+          </div>
+          <div className={styles.sectionText}>
+            <p>
+              Trumpas aprasymas,kuri sugalvos Algina.<br></br>
+              Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
+              Dar biskis tuscio teksto.<br></br>
+              Ir dar kazkiek tuscio teksto.
+            </p>
+          </div>
+          <div>
+            <Image
+              src='/easylog2.svg'
+              alt='reklamos'
+              width={600}
+              height={300}
+            />
+          </div>
+          <div className={styles.sectionText}>
+            <p>
+              Trumpas aprasymas,kuri sugalvos Algina.<br></br>
+              Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
+              Dar biskis tuscio teksto.<br></br>
+              Ir dar kazkiek tuscio teksto.
+            </p>
           </div>
         </section>
       </main>
