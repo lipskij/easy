@@ -2,6 +2,7 @@ import React from "react";
 import Head from 'next/head';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import styles from "../styles/Art.module.css";
 
 const CulturalEvents = () => {
   return (
@@ -11,7 +12,7 @@ const CulturalEvents = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      <main>
+      <main className={styles.main}>
         <h1>Creative Production</h1>
         <button>Video</button>
         <button>Renginiai</button>

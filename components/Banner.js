@@ -4,12 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 // baner video 15s
-// after banner 2 buttons 'art' 'commerce'
+// after banner 2 buttons 'art' 'commerce': DONE
 // apacioj foto ir aprastymas
-// garso reguliavimas
+// garso reguliavimas: DONE
 // clean minimal style
 // galerijoj uzvedus ant nuotrukos full color from black n white
-// navigacija sticky
+// navigacija sticky: DONE
 
 const Banner = () => {
   const [buttons, setButtons] = useState(false);
