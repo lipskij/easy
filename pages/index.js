@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <meta name='description' content='Easy creative production' />
       </Head>
       <main className={styles.main}>
+        <Nav />
         <Banner />
       </main>
       <Footer />

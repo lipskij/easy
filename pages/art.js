@@ -12,7 +12,10 @@ const Art = () => {
       </Head>
       <Nav />
       <main>
-        <h1>Art Page</h1>
+        <h1>Art In Action</h1>
+        <button>Video</button>
+        <button>Dirbtuves</button>
+        <button>Mokymai</button>
       </main>
       <Footer />
     </div>

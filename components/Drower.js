@@ -8,8 +8,8 @@ const Drawer = ({ children, isOpen, className = "" }) => {
         .root {
           background-color: #b3ec79;
           position: absolute;
-          width: 98vw;
-          height: 100vh;
+          width: 100%;
+          height: 100%;
           left: 0;
           right: 0;
           bottom: 0;

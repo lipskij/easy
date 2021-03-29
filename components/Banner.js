@@ -18,10 +18,10 @@ const Banner = () => {
       setButtons(
         <div className='homebtndiv'>
           <button className='homebtn'>
-            <Link href='/art'>
+            <Link href='/creativeProduction'>
               <a>
                 <Image
-                  src='/butonlogo1.png'
+                  src='/buttonlogo1.png'
                   alt='button logo'
                   width={270}
                   height={200}
@@ -30,12 +30,16 @@ const Banner = () => {
             </Link>
           </button>
           <button className='homebtn'>
-            <Image
-              src='/buttonlogo2.png'
-              alt='button logo'
-              width={270}
-              height={200}
-            />
+            <Link href='/art'>
+              <a>
+                <Image
+                  src='/buttonlogo2.png'
+                  alt='button logo'
+                  width={270}
+                  height={200}
+                />
+              </a>
+            </Link>
           </button>
         </div>
       );
@@ -43,9 +47,6 @@ const Banner = () => {
   }, []);
   return (
     <>
-      <div className='banner'>
-        <Image src='/easylog2.svg' alt='logo' width={270} height={150} />
-      </div>
       {buttons ? (
         buttons
       ) : (
@@ -63,7 +64,6 @@ const Banner = () => {
             <source src='EASYshowreel.mp4' type='video/mp4' />
             Your browser does not support the video tag.
           </video>
-          {/* <button type='button' className='sound-control'>Mute</button> */}
         </div>
       )}
     </>

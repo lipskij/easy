@@ -12,7 +12,10 @@ const CulturalEvents = () => {
       </Head>
       <Nav />
       <main>
-        <h1>Cultural Events Page</h1>
+        <h1>Creative Production</h1>
+        <button>Video</button>
+        <button>Renginiai</button>
+        <button>Fotosesijos</button>
       </main>
       <Footer />
     </div>
