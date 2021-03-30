@@ -9,10 +9,15 @@
   padding-top: 5rem;
 }
 
-.videoSection {
+.commercialSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
+  width: 90%;
+}
+
+.commercialSection div {
+  margin: 0 auto;
 }
 
 .galleryGrid {
@@ -25,10 +30,14 @@
   padding-bottom: 5rem;
 }
 
+.main p {
+  line-height: 2;
+}
+
 .sectionLine {
-  width: 90vw;
+  width: 95vw;
   height: 1px;
-  margin: 4rem;
+  margin: 5rem;
   background-color: black;
 }
 
@@ -58,19 +67,27 @@
   align-items: center;
   justify-content: center;
   height: 3rem;
-  margin-top: 3rem;
-}
-
-.sectionText {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  line-height: 2;
-  justify-content: center;
+  margin-top: 5rem;
 }
 
 .secondSection {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  width: 80vw;
+}
+
+.left {
+  display: flex;
+  float:left;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 50vh;
+}
+
+.right {
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 50vh;
 }

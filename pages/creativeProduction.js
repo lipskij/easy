@@ -16,7 +16,7 @@ const CulturalEvents = () => {
       <Nav />
       <main className={styles.main}>
         <h1>Creative Production</h1>
-        <section className={styles.videoSection}>
+        <section className={styles.commercialSection}>
           <div>
             <Image
               src='/reklama1.png'
@@ -73,7 +73,7 @@ const CulturalEvents = () => {
         <div className={styles.sectionLine}></div>
         <h1>Renginiai</h1>
         <section className={styles.secondSection}>
-          <div>
+          <div className={styles.left}>
             <Image
               src='/easylog2.svg'
               alt='reklamos'
@@ -81,7 +81,7 @@ const CulturalEvents = () => {
               height={300}
             />
           </div>
-          <div className={styles.sectionText}>
+          <div className={styles.right}>
             <p>
               Trumpas aprasymas,kuri sugalvos Algina.<br></br>
               Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
@@ -89,7 +89,7 @@ const CulturalEvents = () => {
               Ir dar kazkiek tuscio teksto.
             </p>
           </div>
-          <div>
+          <div className={styles.right}>
             <Image
               src='/easylog2.svg'
               alt='reklamos'
@@ -97,7 +97,7 @@ const CulturalEvents = () => {
               height={300}
             />
           </div>
-          <div className={styles.sectionText}>
+          <div className={styles.left}>
             <p>
               Trumpas aprasymas,kuri sugalvos Algina.<br></br>
               Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
@@ -105,7 +105,7 @@ const CulturalEvents = () => {
               Ir dar kazkiek tuscio teksto.
             </p>
           </div>
-          <div>
+          <div className={styles.left}>
             <Image
               src='/easylog2.svg'
               alt='reklamos'
@@ -113,7 +113,7 @@ const CulturalEvents = () => {
               height={300}
             />
           </div>
-          <div className={styles.sectionText}>
+          <div className={styles.right}>
             <p>
               Trumpas aprasymas,kuri sugalvos Algina.<br></br>
               Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
@@ -121,7 +121,7 @@ const CulturalEvents = () => {
               Ir dar kazkiek tuscio teksto.
             </p>
           </div>
-          <div>
+          <div className={styles.right}>
             <Image
               src='/easylog2.svg'
               alt='reklamos'
@@ -129,7 +129,7 @@ const CulturalEvents = () => {
               height={300}
             />
           </div>
-          <div className={styles.sectionText}>
+          <div className={styles.left}>
             <p>
               Trumpas aprasymas,kuri sugalvos Algina.<br></br>
               Ir kai jau bus keli aprasymai tuomet idesiu cia.<br></br>
