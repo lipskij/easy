@@ -3,8 +3,24 @@ import Head from "next/head";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import styles from "../styles/Art.module.css";
+import Slider from "react-slick";
+import Image from "next/image";
 
 const Art = () => {
+  const setting = {
+    focusOnSelect: false,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    arrows: false,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    centerMode: true,
+    centerPadding: "20px",
+    // fade: true,
+    className: "slides",
+  };
   return (
     <div>
       <Head>
@@ -13,10 +29,28 @@ const Art = () => {
       </Head>
       <Nav />
       <main className={styles.main}>
-        <h1>Art In Action</h1>
-        <button>Video</button>
-        <button>Dirbtuves</button>
-        <button>Mokymai</button>
+        <div className='slide'>
+          <Slider {...setting}>
+            <Image
+              src='/reklama1.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+            <Image
+              src='/reklama2.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+            <Image
+              src='/reklama3.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+          </Slider>
+        </div>
       </main>
       <Footer />
     </div>
