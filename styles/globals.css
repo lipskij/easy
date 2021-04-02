@@ -56,6 +56,7 @@ nav li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: grey;
 }
 
 .footer-logos {
@@ -63,35 +64,8 @@ nav li {
   justify-content: space-between;
   align-items: center;
   width: 12rem;
+  margin: 0 auto;
 }
-
-/* .isOpen {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 1;
-}
-
-.isOpen li {
-  list-style: none;
-  line-height: 2;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.isOpen li:hover {
-  cursor: pointer;
-  transform: scale(1.05);
-  transition-duration: 0.3s;
-}
-
-.isOpen a {
-  text-decoration: none;
-  color: black;
-  transition-duration: 0.3s;
-} */
 
 .banner-vid {
   display: flex;
@@ -99,6 +73,7 @@ nav li {
   justify-content: center;
   background-color: black;
   padding-bottom: 2rem;
+  height: 100vh;
   width: 100%;
   animation: bannerVid 0.5s ease;
   animation-delay: 2.6s;
@@ -131,27 +106,40 @@ nav li {
 
 .slick-prev {
   left: -3%;
-  background-color: black;
+  background: black;
   z-index: 1;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px;
 }
 .slick-next {
   right: -3%;
   z-index: 1;
-  background-color: black;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 5px;
-}
-
-.slick-arrow:hover {
   background: black;
 }
 
+.slick-arrow {
+  display: flex;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-arrow:before {
+  background: black;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  padding-top: 5px;
+  width: 2.5rem;
+  height: 2.5rem; 
+}
+
 .slides {
-  padding-left: 1.1rem;
+  padding: 1rem;
+}
+
+.slick-slide {
+  padding: 10px;
 }
 
 .icons {
@@ -190,6 +178,7 @@ nav li {
 @media screen and (max-width: 480px) {
   .banner-vid {
     display: none;
+    animation: none;
   }
   .desctop-nav {
     display: none;
@@ -227,5 +216,21 @@ nav li {
     text-decoration: none;
     color: #b3ec79;
     transition-duration: 0.3s;
+  }
+
+  .homebtndiv {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+    height: 80vh;
+  }
+  .homebtn {
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .slick-dots {
+    top: 0;
+    padding-right: 2rem;
   }
 }
