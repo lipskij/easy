@@ -6,6 +6,7 @@ const Hamburger = ({ onClick, toggled, className = "" }) => {
       <style jsx>{`
         .root {
           border: none;
+          outline: none;
           background: none;
           position: relative;
           padding: 5px 2px 2px 2px;
@@ -14,15 +15,13 @@ const Hamburger = ({ onClick, toggled, className = "" }) => {
           margin-left: 1rem;
         }
         .bar {
-          background-color: #cbff00;
+          background-color: #b3ec79;
           min-height: 4px;
           min-width: 20px;
           transition: transform 300ms;
-          outline: none;
-          border-radius: 10px;
         }
         .bar ~ .bar {
-          margin-top: 5px;
+          margin-top: 6px;
         }
       `}</style>
       <style jsx>{`

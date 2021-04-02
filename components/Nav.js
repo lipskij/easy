@@ -54,11 +54,6 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link href='/commercial'>
-              <a>Komercija</a>
-            </Link>
-          </li>
-          <li>
             <Link href='/art'>
               <a>Art</a>
             </Link>
@@ -66,26 +61,6 @@ const Nav = () => {
           <li>
             <Link href='/creativeProduction'>
               <a>Renginiai</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/p'>
-              <a href='/p'>Privatiems</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/m'>
-              <a>Mokymai</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/d'>
-              <a href='/'>Dirbtuves</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/idk'>
-              <a>IDK</a>
             </Link>
           </li>
           <li>

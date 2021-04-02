@@ -6,22 +6,20 @@ const Drawer = ({ children, isOpen, className = "" }) => {
         
       <style jsx>{`
         .root {
-          background-color: #b3ec79;
+          background-color: black;
           position: absolute;
-          width: 100%;
-          height: 100%;
+          width: 100vw;
+          height: 100vh;
           left: 0;
           right: 0;
           bottom: 0;
           top: 0;
           transform: translateY(-100%);
           transition: transform 300ms;
-
-          z-index: 1;
+          z-index: -1;
         }
         .isOpen {
           transform: translateY(0);
-
         }
         ${isOpen ? `:global(body) { overflow: hidden; } ` : ``}
       `}</style>

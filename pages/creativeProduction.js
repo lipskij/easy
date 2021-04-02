@@ -90,6 +90,7 @@ const CulturalEvents = () => {
       <Nav />
       <main className={styles.main}>
         <h1>Creative Production</h1>
+        <h2>Reklamos</h2>
         <section className={styles.commercialSection}>
           <div>
             <Image
@@ -145,7 +146,7 @@ const CulturalEvents = () => {
           </Link>
         </div>
         <div className={styles.sectionLine}></div>
-        <h1>Renginiai</h1>
+        <h2>Renginiai</h2>
         <section className={styles.secondSection}>
           <div className={styles.left}>
             <Image
@@ -221,8 +222,7 @@ const CulturalEvents = () => {
           </Link>
         </div>
         <div className={styles.sectionLine}></div>
-        <h1>Renginiai</h1>
-
+        <h2>Fotosesijos</h2>
         <div className={styles.slide}>
           <Slider {...setting}>
             {photos.map((photos, index) => {
