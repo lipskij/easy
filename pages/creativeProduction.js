@@ -5,43 +5,48 @@ import Footer from "../components/Footer";
 import styles from "../styles/CreativeProduction.module.css";
 import Image from "next/image";
 import Link from "next/link";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const photos = [
-  {
-    name: "Photo 1",
-    url: "/reklama3.png",
-  },
-  {
-    name: "Photo 2",
-    url: "/reklama3.png",
-  },
-  {
-    name: "Photo 3",
-    url: "/reklama3.png",
-  },
-  {
-    name: "Photo 4",
-    url: "/reklama3.png",
-  },
-];
 
 const CulturalEvents = () => {
   const setting = {
+    lazyLoad: true,
     focusOnSelect: false,
     dots: true,
     infinite: true,
     speed: 500,
-    arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     centerMode: true,
-    centerPadding: "20px",
-    // fade: true,
+    centerPadding: '1px',
     className: "slides",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -196,29 +201,41 @@ const CulturalEvents = () => {
         </div>
         <div className={styles.sectionLine}></div>
         <h1>Renginiai</h1>
-        
-          <div className={styles.slide}>
-            <Slider {...setting}>
-              <Image
-                src='/reklama1.png'
-                alt='reklamos'
-                width={400}
-                height={200}
-              />
-              <Image
-                src='/reklama2.png'
-                alt='reklamos'
-                width={400}
-                height={200}
-              />
-              <Image
-                src='/reklama3.png'
-                alt='reklamos'
-                width={400}
-                height={200}
-              />
-            </Slider>
-          </div>
+
+        <div className={styles.slide}>
+          <Slider {...setting}>
+            <Image
+              src='/reklama1.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+            <Image
+              src='/reklama2.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+            <Image
+              src='/reklama3.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+            <Image
+              src='/reklama4.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+            <Image
+              src='/buttonlogo1.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            />
+          </Slider>
+        </div>
       </main>
       <Footer />
     </div>

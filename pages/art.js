@@ -29,28 +29,7 @@ const Art = () => {
       </Head>
       <Nav />
       <main className={styles.main}>
-        <div className='slide'>
-          <Slider {...setting}>
-            <Image
-              src='/reklama1.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-            <Image
-              src='/reklama2.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-            <Image
-              src='/reklama3.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-          </Slider>
-        </div>
+        <h1>Art Page</h1>
       </main>
       <Footer />
     </div>

@@ -128,6 +128,26 @@ nav li {
   box-shadow: 5px 5px 5px grey;
 }
 
+.slick-prev {
+  left: -3%;
+  background-color: black;
+  z-index: 1;
+  width: 2rem;
+  height: 2rem;
+}
+.slick-next {
+  right: -3%;
+  z-index: 1;
+  background-color: black;
+  width: 2rem;
+  height: 2rem;
+}
+
+.slick-arrow:hover {
+  background: black;
+}
+
+
 @keyframes btn {
   from {
     transform: scale(0);
