@@ -33,7 +33,7 @@ const Banner = () => {
                 <Image
                   src='/buttonlogo1.png'
                   alt='button logo'
-                  width={270}
+                  width={300}
                   height={200}
                 />
               </a>
@@ -45,7 +45,7 @@ const Banner = () => {
                 <Image
                   src='/buttonlogo2.png'
                   alt='button logo'
-                  width={270}
+                  width={300}
                   height={200}
                 />
               </a>
