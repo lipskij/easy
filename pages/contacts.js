@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import styles from "../styles/Contacts.module.css";
-import Image from "next/image";
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import { FaYoutube, FaVimeoV } from "react-icons/fa";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
@@ -17,60 +18,52 @@ const Contacts = () => {
       <div className={styles.container}>
         <div className={styles.list}>
           <div className={styles.listItem}>
-            <p>Youtube</p>
             <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <Image
-                  src='/youtube.png'
-                  alt='yt-logo'
-                  width={50}
-                  height={50}
-                />
+                <FaYoutube className='icons' size={32} />
               </a>
             </Link>
-            <p>Our latest work and projects.</p>
           </div>
           <div className={styles.listItem}>
-            <p>Facebook </p>
             <Link href='https://www.facebook.com/easycreativeproduction/'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <Image
-                  src='/facebook.png'
-                  alt='fb-logo'
-                  width={50}
-                  height={50}
-                />
+                <AiFillFacebook className='icons' size={32} />
               </a>
             </Link>
-            <p>New's and glimpse in to the backstage.</p>
           </div>
           <div className={styles.listItem}>
-            <p>Vimeo</p>
             <Link href='https://vimeo.com/user9888997'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <Image
-                  src='/vimeo.png'
-                  alt='vimeo-logo'
-                  width={50}
-                  height={50}
-                />
+                <FaVimeoV className='icons' size={32} />
               </a>
             </Link>
-            <p>Whatch our showreeel's and tell us what you think!</p>
           </div>
           <div className={styles.listItem}>
-            <p>Instagram</p>
             <Link href='https://www.instagram.com/easycreativeproduction/'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <Image
-                  src='/instagram.png'
-                  alt='instagram-logo'
-                  width={50}
-                  height={50}
-                />
+                <AiFillInstagram className='icons' size={32} />
               </a>
             </Link>
-            <p>Follow us on instagram, be first to know what we're up to.</p>
+          </div>
+        </div>
+        <div className={styles.contacts}>
+          <div className={styles.contactsCell}>
+            <h2>AlGINA Bedulskė</h2>
+            <h3>EASY Art Director</h3>
+            <p>+370 345 3453</p>
+            <p>mailas@emailas.com</p>
+          </div>
+          <div className={styles.contactsCell}>
+            <h2>MIGLĖ Valašaitė</h2>
+            <h3>EASY Production Director</h3>
+            <p>+370 345 3453</p>
+            <p>mailas@emailas.com</p>
+          </div>
+          <div className={styles.contactsCell}>
+            <h2>INGA Kalpakovaitė</h2>
+            <h3>EASY Management Director / Produser</h3>
+            <p>+370 345 3453</p>
+            <p>mailas@emailas.com</p>
           </div>
         </div>
       </div>
