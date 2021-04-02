@@ -7,19 +7,40 @@ import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 
+const photos = [
+  {
+    name: "photo1",
+    url: "/reklama1.png",
+  },
+  {
+    name: "photo1",
+    url: "/reklama2.png",
+  },
+  {
+    name: "photo1",
+    url: "/reklama3.png",
+  },
+  {
+    name: "photo1",
+    url: "/reklama4.png",
+  },
+  {
+    name: "photo1",
+    url: "/buttonlogo1.png",
+  },
+];
 
 const CulturalEvents = () => {
   const setting = {
     lazyLoad: true,
     focusOnSelect: false,
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     centerMode: true,
-    centerPadding: '1px',
+    centerPadding: "1px",
     className: "slides",
     responsive: [
       {
@@ -204,36 +225,18 @@ const CulturalEvents = () => {
 
         <div className={styles.slide}>
           <Slider {...setting}>
-            <Image
-              src='/reklama1.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-            <Image
-              src='/reklama2.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-            <Image
-              src='/reklama3.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-            <Image
-              src='/reklama4.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
-            <Image
-              src='/buttonlogo1.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
+            {photos.map((photos, index) => {
+              return (
+                <div key={index}>
+                  <Image
+                    src={photos.url}
+                    alt='photo'
+                    width={400}
+                    height={200}
+                  />
+                </div>
+              );
+            })}
           </Slider>
         </div>
       </main>
