@@ -14,7 +14,7 @@
   padding-bottom: 5rem;
 }
 
-.commercialSection div{
+.commercialSection div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
@@ -71,4 +71,12 @@
 
 .dirbtuvesCell {
   height: 43rem;
+}
+
+@media screen and (max-width: 480px) {
+  .commercialSection div{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+  }
 }
