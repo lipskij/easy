@@ -10,19 +10,19 @@ import Slider from "react-slick";
 const photos = [
   {
     name: "photo1",
-    url: "/reklama1.png",
+    url: "/reklamos/reklama1.png",
   },
   {
     name: "photo1",
-    url: "/reklama2.png",
+    url: "/reklamos/reklama2.png",
   },
   {
     name: "photo1",
-    url: "/reklama3.png",
+    url: "/reklamos/reklama3.png",
   },
   {
     name: "photo1",
-    url: "/reklama4.png",
+    url: "/reklamos/reklama4.png",
   },
   {
     name: "photo1",
@@ -87,7 +87,7 @@ const CulturalEvents = () => {
         <section className={styles.commercialSection}>
           <div>
             <Image
-              src='/reklama1.png'
+              src='/reklamos/reklama1.png'
               alt='reklamos'
               width={400}
               height={200}
@@ -98,7 +98,7 @@ const CulturalEvents = () => {
           </div>
           <div>
             <Image
-              src='/reklama2.png'
+              src='/reklamos/reklama2.png'
               alt='reklamos'
               width={400}
               height={200}
@@ -109,7 +109,7 @@ const CulturalEvents = () => {
           </div>
           <div>
             <Image
-              src='/reklama3.png'
+              src='/reklamos/reklama3.png'
               alt='reklamos'
               width={400}
               height={200}
@@ -120,7 +120,7 @@ const CulturalEvents = () => {
           </div>
           <div>
             <Image
-              src='/reklama4.png'
+              src='/reklamos/reklama4.png'
               alt='reklamos'
               width={400}
               height={200}
@@ -131,7 +131,7 @@ const CulturalEvents = () => {
           </div>
         </section>
         <div className={styles.button}>
-          <Link href='/idk'>
+          <Link href='/commercial'>
             <button className={styles.video}>
               <a></a>
               Daugiau

@@ -106,19 +106,15 @@ nav li {
 
 .slick-prev {
   left: -3%;
-  background: black;
   z-index: 1;
 }
 .slick-next {
   right: -3%;
   z-index: 1;
-  background: black;
 }
 
 .slick-arrow {
   display: flex;
-  border-radius: 5px;
-  font-size: 2.5rem;
   width: 2.5rem;
   height: 2.5rem;
   align-items: center;
@@ -126,12 +122,8 @@ nav li {
 }
 
 .slick-arrow:before {
-  background: black;
+  color: black;
   font-size: 2.5rem;
-  border-radius: 5px;
-  padding-top: 5px;
-  width: 2.5rem;
-  height: 2.5rem; 
 }
 
 .slides {

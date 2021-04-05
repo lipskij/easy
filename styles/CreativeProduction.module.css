@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   padding-top: 5rem;
 }
@@ -99,6 +99,27 @@
   height: 50vh;
   margin: 0 auto;
   justify-content: center;
+}
+
+.commercialPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  text-align: center;
+  line-height: 2;
+}
+
+.commercialPageCell {
+  height: 50rem;
+}
+
+.commercialPageCell video {
+  width: 70vw;
+}
+
+.commercialPageCell video:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 480px) {
