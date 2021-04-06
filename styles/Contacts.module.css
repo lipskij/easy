@@ -29,8 +29,6 @@
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  /* width: 80vw; */
-  /* align-items: flex-start; */
 }
 
 .contacts h2 {
@@ -46,7 +44,11 @@
 }
 
 .contactsCell {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
   text-align: center;
   line-height: 2;
-  padding: 0 0 2rem 0;
+  padding: 0 0 3rem 0;
+  align-items: center;
 }

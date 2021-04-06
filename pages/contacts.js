@@ -6,6 +6,7 @@ import { FaYoutube, FaVimeoV } from "react-icons/fa";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import Image from "next/image";
 
 const Contacts = () => {
   return (
@@ -48,22 +49,37 @@ const Contacts = () => {
         </div>
         <div className={styles.contacts}>
           <div className={styles.contactsCell}>
-            <h2>AlGINA Bedulskė</h2>
-            <h3>EASY Art Director</h3>
-            <p>+370 345 3453</p>
-            <p>mailas@emailas.com</p>
+            <div>
+              <h2>AlGINA Bedulskė</h2>
+              <h3>EASY Art Director</h3>
+              <p>+370 345 3453</p>
+              <p>mailas@emailas.com</p>
+            </div>
+            <div>
+              <Image src='/easylog2.svg' alt='foto' width={300} height={150} />
+            </div>
           </div>
           <div className={styles.contactsCell}>
-            <h2>MIGLĖ Valašaitė</h2>
-            <h3>EASY Production Director</h3>
-            <p>+370 345 3453</p>
-            <p>mailas@emailas.com</p>
+            <div>
+              <h2>MIGLĖ Valašaitė</h2>
+              <h3>EASY Production Director</h3>
+              <p>+370 345 3453</p>
+              <p>mailas@emailas.com</p>
+            </div>
+            <div>
+              <Image src='/easylog2.svg' alt='foto' width={300} height={150} />
+            </div>
           </div>
           <div className={styles.contactsCell}>
-            <h2>INGA Kalpakovaitė</h2>
-            <h3>EASY Management Director / Produser</h3>
-            <p>+370 345 3453</p>
-            <p>mailas@emailas.com</p>
+            <div>
+              <h2>INGA Kalpakovaitė</h2>
+              <h3>EASY Management Director / Produser</h3>
+              <p>+370 345 3453</p>
+              <p>mailas@emailas.com</p>
+            </div>
+            <div>
+              <Image src='/easylog2.svg' alt='foto' width={300} height={150} />
+            </div>
           </div>
         </div>
       </div>
