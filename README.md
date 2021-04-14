@@ -33,5 +33,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cbfbf1db-e255-4912-b616-422a6649d665/deploy-status)](https://app.netlify.com/sites/easy-site/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/667adbcc-34e6-4d3b-b3dc-395b36defea4/deploy-status)](https://app.netlify.com/sites/easy-site/deploys)
 
