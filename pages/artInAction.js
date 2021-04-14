@@ -153,7 +153,7 @@ const Art = () => {
         <section className={styles.dirbtuvesSection}>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -170,7 +170,7 @@ const Art = () => {
           </div>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -187,7 +187,7 @@ const Art = () => {
           </div>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -204,7 +204,7 @@ const Art = () => {
           </div>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -233,7 +233,7 @@ const Art = () => {
         <section className={styles.dirbtuvesSection}>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -250,7 +250,7 @@ const Art = () => {
           </div>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -267,7 +267,7 @@ const Art = () => {
           </div>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -284,7 +284,7 @@ const Art = () => {
           </div>
           <div className={styles.dirbtuvesCell}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}

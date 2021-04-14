@@ -23,7 +23,7 @@ const Nav = () => {
         toggled={isOpen}
         onClick={() => setIsOpen(!isOpen)}
       />
-      <Image src='/images/easylog2.svg' alt='logo' width={100} height={70} />
+      <Image src='/images/easylog.png' alt='logo' width={100} height={50} />
       <ul className='desctop-nav'>
         <li>
           <Link href='/'>

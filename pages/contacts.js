@@ -60,7 +60,7 @@ const Contacts = () => {
             </div>
             <div>
               <Image
-                src='/images/easylog2.svg'
+                src='/images/easylog.png'
                 alt='foto'
                 width={300}
                 height={150}
@@ -76,7 +76,7 @@ const Contacts = () => {
             </div>
             <div>
               <Image
-                src='/images/easylog2.svg'
+                src='/images/easylog.png'
                 alt='foto'
                 width={300}
                 height={150}
@@ -92,7 +92,7 @@ const Contacts = () => {
             </div>
             <div>
               <Image
-                src='/images/easylog2.svg'
+                src='/images/easylog.png'
                 alt='foto'
                 width={300}
                 height={150}

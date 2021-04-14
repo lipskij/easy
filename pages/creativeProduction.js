@@ -145,7 +145,7 @@ const CulturalEvents = () => {
         <section className={styles.secondSection}>
           <div className={styles.left}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -161,7 +161,7 @@ const CulturalEvents = () => {
           </div>
           <div className={styles.right}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -177,7 +177,7 @@ const CulturalEvents = () => {
           </div>
           <div className={styles.left}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
@@ -193,7 +193,7 @@ const CulturalEvents = () => {
           </div>
           <div className={styles.right}>
             <Image
-              src='/images/easylog2.svg'
+              src='/images/easylog.png'
               alt='reklamos'
               width={600}
               height={300}
