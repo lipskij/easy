@@ -79,7 +79,6 @@ const CulturalEvents = () => {
         />
         <title>EASY</title>
         <link rel='icon' href='/images/favicon.ico' />
-        <meta name="robots" content="noindex"/>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta name='description' content='Easy creative production' />
       </Head>
