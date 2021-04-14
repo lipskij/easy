@@ -53,7 +53,7 @@ const Banner = () => {
           </button>
         </div>
       ) : (
-        <div className='/images/banner-vid'>
+        <div className='banner-vid'>
           <video
             controls
             width='100%'
@@ -64,7 +64,7 @@ const Banner = () => {
             disablePictureInPicture
             controlsList='nofullscreen nodownload noremoteplayback'
           >
-            <source src='EASYshowreel.mp4' type='video/mp4' />
+            <source src='/images/EASYshowreel.mp4' type='video/mp4' />
             Your browser does not support the video tag.
           </video>
         </div>
