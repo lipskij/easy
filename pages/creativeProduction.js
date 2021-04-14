@@ -134,10 +134,7 @@ const CulturalEvents = () => {
         </section>
         <div className={styles.button}>
           <Link href='/commercial'>
-            <button className={styles.video}>
-              <a></a>
-              Daugiau
-            </button>
+            <button className={styles.video}>Daugiau</button>
           </Link>
         </div>
         <div className={styles.sectionLine}></div>
@@ -210,10 +207,7 @@ const CulturalEvents = () => {
         </section>
         <div className={styles.button}>
           <Link href='/idk'>
-            <button className={styles.video}>
-              <a></a>
-              Daugiau
-            </button>
+            <button className={styles.video}>Daugiau</button>
           </Link>
         </div>
         <div className={styles.sectionLine}></div>

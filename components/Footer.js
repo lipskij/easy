@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer-logos'>
         <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
-          <a rel='noopener' target='_blank'>
+          <a rel='noopener' target='_blank'>{""}
             <FaYoutube className='icons' size={32} />
           </a>
         </Link>
@@ -18,12 +18,12 @@ const Footer = () => {
           </a>
         </Link>
         <Link href='https://www.instagram.com/easycreativeproduction/'>
-          <a rel='noopener' target='_blank'>
+          <a rel='noopener' target='_blank'>{""}
             <AiFillInstagram className='icons' size={32} />
           </a>
         </Link>
         <Link href='https://vimeo.com/user9888997'>
-          <a rel='noopener' target='_blank'>
+          <a rel='noopener' target='_blank'>{""}
             <FaVimeoV className='icons' size={32} />
           </a>
         </Link>

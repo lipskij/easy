@@ -9,13 +9,13 @@ export default function ContactForm() {
           <input type='hidden' name='form-name' value='contact' />
           <div>
             <label htmlFor='name' className='sr-only'>
-              Full name
+              Vardas
             </label>
             <input
               type='text'
               name='name'
               className={styles.name}
-              placeholder='Full name'
+              placeholder='Vardas'
             />
           </div>
           <div>
@@ -42,7 +42,7 @@ export default function ContactForm() {
           </div>
           <div>
             <button type='submit' className={styles.button}>
-              Submit
+              Siusti
             </button>
           </div>
         </form>
