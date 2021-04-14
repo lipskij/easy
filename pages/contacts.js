@@ -57,7 +57,7 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <img src='/images/easylog2.svg' alt='foto' width={300} height={150} />
+              <Image src='/images/easylog2.svg' alt='foto' width={300} height={150} />
             </div>
           </div>
           <div className={styles.contactsCell}>
