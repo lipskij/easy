@@ -6,6 +6,7 @@ export default function ContactForm() {
     <div className={styles.emailCell}>
       <div className={styles.emailForm}>
         <form name='contact' method='POST' data-netlify='true'>
+          <input type='hidden' name='form-name' value='contact' />
           <div>
             <label htmlFor='name' className='sr-only'>
               Full name
