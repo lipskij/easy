@@ -37,7 +37,7 @@ const Commercial = () => {
             <p>Paskolų klubas - Žmogiškas skolinimas įsibėgėjo!</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -62,7 +62,7 @@ const Commercial = () => {
             </p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -85,7 +85,7 @@ const Commercial = () => {
             <p>Paskolų klubas - Lengvas refinansavimas.</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -109,7 +109,7 @@ const Commercial = () => {
             <p>Ačiū Tau, Islandija / Takk, Island!</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -132,7 +132,7 @@ const Commercial = () => {
             <p>JYSK / SLEEP EXTRA /</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -155,7 +155,7 @@ const Commercial = () => {
             <p>JYSK / Cooling air comfort / TV klipas</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -178,7 +178,7 @@ const Commercial = () => {
             <p>JYSK / PLIUS COCO MODERN</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -201,7 +201,7 @@ const Commercial = () => {
             <p>JYSK / ALOE VERA </p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -224,7 +224,7 @@ const Commercial = () => {
             <p>JYSK. Stres free</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -247,7 +247,7 @@ const Commercial = () => {
             <p>Lietuvos Balsas. Vaikai - Kalėdos</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -270,7 +270,7 @@ const Commercial = () => {
             <p>LNK Kalėdos - Donatas</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -293,7 +293,7 @@ const Commercial = () => {
             <p>LNK Kalėdos - Mantas</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -316,7 +316,7 @@ const Commercial = () => {
             <p>LNK Kalėdos - Monika Marija</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -339,7 +339,7 @@ const Commercial = () => {
             <p>LNK Kalėdos!</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
           <div className={styles.commercialPageCell}>
             <video
@@ -362,7 +362,7 @@ const Commercial = () => {
             <p>LNK Vasario 16 klipas.</p>
             <p>Daugiau teksto apie reklama. Kuri veliau pridesiu.</p>
             <p>Trumpas reklamos aprasymas. Arba ne, nezinau.</p>
-            <p>Nukreipimas i reklamis video.</p>
+            <p>Nukreipimas i reklamos video.</p>
           </div>
         </section>
       </main>

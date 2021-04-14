@@ -7,6 +7,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Image from "next/image";
+import ContactForm from "../components/ContactForm";
 
 const Contacts = () => {
   return (
@@ -83,6 +84,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
+      <ContactForm />
       <Footer />
     </>
   );
