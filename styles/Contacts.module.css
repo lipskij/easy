@@ -72,6 +72,11 @@
   margin: 0 auto;
 }
 
+.emailForm p {
+  color: red;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
 .name,
 .subject {
   width: 100%;
