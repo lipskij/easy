@@ -26,7 +26,7 @@ const photos = [
   },
   {
     name: "photo5",
-    url: "/images/buttonlogo1.png",
+    url: "/images/butonlogo1-min.png",
   },
 ];
 
