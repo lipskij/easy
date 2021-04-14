@@ -31,7 +31,7 @@ const Banner = () => {
             <Link href='/creativeProduction'>
               <a>
                 <Image
-                  src='/buttonlogo1.png'
+                  src='/images/buttonlogo1.png'
                   alt='button logo'
                   width={300}
                   height={200}
@@ -43,7 +43,7 @@ const Banner = () => {
             <Link href='/art'>
               <a>
                 <Image
-                  src='/buttonlogo2.png'
+                  src='/images/buttonlogo2.png'
                   alt='button logo'
                   width={300}
                   height={200}
@@ -53,7 +53,7 @@ const Banner = () => {
           </button>
         </div>
       ) : (
-        <div className='banner-vid'>
+        <div className='/images/banner-vid'>
           <video
             controls
             width='100%'

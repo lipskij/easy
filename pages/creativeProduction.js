@@ -13,20 +13,20 @@ const photos = [
     url: "/reklamos/reklama1.png",
   },
   {
-    name: "photo1",
+    name: "photo2",
     url: "/reklamos/reklama2.png",
   },
   {
-    name: "photo1",
+    name: "photo3",
     url: "/reklamos/reklama3.png",
   },
   {
-    name: "photo1",
+    name: "photo4",
     url: "/reklamos/reklama4.png",
   },
   {
-    name: "photo1",
-    url: "/buttonlogo1.png",
+    name: "photo5",
+    url: "/images/buttonlogo1.png",
   },
 ];
 
@@ -143,7 +143,7 @@ const CulturalEvents = () => {
         <section className={styles.secondSection}>
           <div className={styles.left}>
             <Image
-              src='/easylog2.svg'
+              src='/images/easylog2.svg'
               alt='reklamos'
               width={600}
               height={300}
@@ -159,7 +159,7 @@ const CulturalEvents = () => {
           </div>
           <div className={styles.right}>
             <Image
-              src='/easylog2.svg'
+              src='/images/easylog2.svg'
               alt='reklamos'
               width={600}
               height={300}
@@ -175,7 +175,7 @@ const CulturalEvents = () => {
           </div>
           <div className={styles.left}>
             <Image
-              src='/easylog2.svg'
+              src='/images/easylog2.svg'
               alt='reklamos'
               width={600}
               height={300}
@@ -191,7 +191,7 @@ const CulturalEvents = () => {
           </div>
           <div className={styles.right}>
             <Image
-              src='/easylog2.svg'
+              src='/images/easylog2.svg'
               alt='reklamos'
               width={600}
               height={300}

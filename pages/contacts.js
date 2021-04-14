@@ -57,7 +57,7 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <img src='/easylog2.svg' alt='foto' width={300} height={150} />
+              <img src='/images/easylog2.svg' alt='foto' width={300} height={150} />
             </div>
           </div>
           <div className={styles.contactsCell}>
@@ -68,7 +68,7 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <Image src='/easylog2.svg' alt='foto' width={300} height={150} />
+              <Image src='/images/easylog2.svg' alt='foto' width={300} height={150} />
             </div>
           </div>
           <div className={styles.contactsCell}>
@@ -79,7 +79,7 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <Image src='/easylog2.svg' alt='foto' width={300} height={150} />
+              <Image src='/images/easylog2.svg' alt='foto' width={300} height={150} />
             </div>
           </div>
         </div>
