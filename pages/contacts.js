@@ -14,7 +14,9 @@ const Contacts = () => {
     <>
       <Head>
         <title>EASY</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/images/favicon.ico' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name='description' content='Easy creative production' />
       </Head>
       <Nav />
       <div className={styles.container}>
@@ -57,7 +59,12 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <Image src='/images/easylog2.svg' alt='foto' width={300} height={150} />
+              <Image
+                src='/images/easylog2.svg'
+                alt='foto'
+                width={300}
+                height={150}
+              />
             </div>
           </div>
           <div className={styles.contactsCell}>
@@ -68,7 +75,12 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <Image src='/images/easylog2.svg' alt='foto' width={300} height={150} />
+              <Image
+                src='/images/easylog2.svg'
+                alt='foto'
+                width={300}
+                height={150}
+              />
             </div>
           </div>
           <div className={styles.contactsCell}>
@@ -79,7 +91,12 @@ const Contacts = () => {
               <p>mailas@emailas.com</p>
             </div>
             <div>
-              <Image src='/images/easylog2.svg' alt='foto' width={300} height={150} />
+              <Image
+                src='/images/easylog2.svg'
+                alt='foto'
+                width={300}
+                height={150}
+              />
             </div>
           </div>
         </div>

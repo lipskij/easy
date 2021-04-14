@@ -10,7 +10,9 @@ const Commercial = () => {
     <div>
       <Head>
         <title>EASY</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/images/favicon.ico' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        <meta name='description' content='Easy creative production' />
       </Head>
       <Nav />
       <main className={styles.main}>
