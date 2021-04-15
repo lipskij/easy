@@ -106,3 +106,17 @@
 .button:hover {
   background-color: black;
 }
+
+
+@media screen and (max-width: 480px) {
+  .contactsCell {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+  }
+  .emailForm {
+    margin: 0 auto;
+    width: 90vw;
+  }
+}

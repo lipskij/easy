@@ -40,6 +40,7 @@ const CulturalEvents = () => {
     slidesToScroll: 1,
     autoplay: true,
     centerMode: true,
+    easing: "linear",
     centerPadding: "1px",
     className: "slides",
     responsive: [
@@ -58,6 +59,10 @@ const CulturalEvents = () => {
           slidesToScroll: 1,
           arrows: false,
           dots: true,
+          draggable: true,
+          swipe: true,
+          touchMove: true,
+          swipeToSlide: true,
         },
       },
     ],
