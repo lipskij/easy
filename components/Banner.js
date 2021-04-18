@@ -31,7 +31,7 @@ const Banner = () => {
             <Link href='/creativeProduction'>
               <a>
                 <Image
-                  src='/images/buttonlogo1-min.jpg'
+                  src='/images/butonlogo1-min.png'
                   alt='button logo'
                   width={300}
                   height={200}
@@ -43,7 +43,7 @@ const Banner = () => {
             <Link href='/art'>
               <a>
                 <Image
-                  src='/images/buttonlogo2-min.jpg'
+                  src='/images/buttonlogo2-min.png'
                   alt='button logo'
                   width={300}
                   height={200}
