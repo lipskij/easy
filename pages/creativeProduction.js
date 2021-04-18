@@ -10,23 +10,28 @@ import Slider from "react-slick";
 const photos = [
   {
     name: "photo1",
-    url: "/reklamos/reklama1.webp",
+    url1: "/reklamos/reklama1.webp",
+    url2: "/reklamos/reklama1.png",
   },
   {
     name: "photo2",
-    url: "/reklamos/reklama2.webp",
+    url1: "/reklamos/reklama2.webp",
+    url2: "/reklamos/reklama2.png",
   },
   {
     name: "photo3",
-    url: "/reklamos/reklama3.webp",
+    url1: "/reklamos/reklama3.webp",
+    url2: "/reklamos/reklama3.png",
   },
   {
     name: "photo4",
-    url: "/reklamos/reklama4.webp",
+    url1: "/reklamos/reklama4.webp",
+    url2: "/reklamos/reklama4.png",
   },
   {
     name: "photo5",
-    url: "/images/butonlogo1.webp",
+    url1: "/images/butonlogo1.webp",
+    url2: "/images/butonlogo1-min.png",
   },
 ];
 
@@ -97,6 +102,12 @@ const CulturalEvents = () => {
               <source srcSet='/reklamos/reklama1.webp' type='image/webp' />
               <img src='/reklamos/reklama1.png' alt='logo' />
             </picture>
+            {/* <Image
+              src='/reklamos/reklama2.png'
+              alt='reklamos'
+              width={400}
+              height={200}
+            /> */}
             <div className={styles.sectionText}>
               <p>Paskolų klubas - Žmogiškas skolinimas įsibėgėjo!</p>
             </div>
@@ -248,12 +259,10 @@ const CulturalEvents = () => {
             {photos.map((photos, index) => {
               return (
                 <div key={index}>
-                  <Image
-                    src={photos.url}
-                    alt='photo'
-                    width={400}
-                    height={200}
-                  />
+                  <picture>
+                    <source srcSet={photos.url1} type='image/webp' />
+                    <img src={photos.url2} alt='logo' />
+                  </picture>
                 </div>
               );
             })}

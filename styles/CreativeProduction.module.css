@@ -114,11 +114,15 @@
 }
 
 .slide {
-  padding-top: 2rem;
   width: 85vw;
   height: 50vh;
   margin: 0 auto;
   justify-content: center;
+}
+
+.slide img {
+  width: 380px;
+  height: 200px;
 }
 
 .commercialPage {
@@ -146,7 +150,12 @@
   .commercialSection {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
+  }
+  
+  .commercialSection div img {
+    width: 300px;
+    height: 160px;
   }
 
   .sectionText p {
@@ -164,6 +173,11 @@
     align-items: center;
     text-align: center;
   }
+
+  .secondSection img {
+    width: 300px;
+    height: 160px;
+  }
   .left {
     width: 80vw;
     height: auto;
@@ -180,7 +194,11 @@
   }
   .slide {
     padding-top: 0;
-    width: 90vw;
+    width: 95vw;
     height: 45vh;
+  }
+  .slide img {
+    width: 290px;
+    height: 150px;
   }
 }
