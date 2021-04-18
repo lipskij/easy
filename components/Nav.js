@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Drawer from "./Drower";
 import Hamburger from "./Hamburger";
 import css from "styled-jsx/css";
@@ -23,7 +22,11 @@ const Nav = () => {
         toggled={isOpen}
         onClick={() => setIsOpen(!isOpen)}
       />
-      <Image src='/images/easylog.png' alt='logo' width={100} height={50} />
+      <picture>
+        <source srcSet='/images/easylog.webp' type='image/webp' />
+        <img src='/images/easylog.png' alt='logo' />
+      </picture>
+      {/* <Image src='/images/easylog.png' alt='logo' width={100} height={50} /> */}
       <ul className='desctop-nav'>
         <li>
           <Link href='/'>
