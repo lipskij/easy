@@ -10,23 +10,23 @@ import Slider from "react-slick";
 const photos = [
   {
     name: "photo1",
-    url: "/reklamos/reklama1.png",
+    url: "/reklamos/reklama1.webp",
   },
   {
     name: "photo2",
-    url: "/reklamos/reklama2.png",
+    url: "/reklamos/reklama2.webp",
   },
   {
     name: "photo3",
-    url: "/reklamos/reklama3.png",
+    url: "/reklamos/reklama3.webp",
   },
   {
     name: "photo4",
-    url: "/reklamos/reklama4.png",
+    url: "/reklamos/reklama4.webp",
   },
   {
     name: "photo5",
-    url: "/images/butonlogo1-min.png",
+    url: "/images/butonlogo1.webp",
   },
 ];
 
@@ -93,45 +93,55 @@ const CulturalEvents = () => {
         <h2>Reklamos</h2>
         <section className={styles.commercialSection}>
           <div>
-            <Image
-              src='/reklamos/reklama1.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            />
+            <picture>
+              <source srcSet='/reklamos/reklama1.webp' type='image/webp' />
+              <img src='/reklamos/reklama1.png' alt='logo' />
+            </picture>
             <div className={styles.sectionText}>
               <p>Paskolų klubas - Žmogiškas skolinimas įsibėgėjo!</p>
             </div>
           </div>
           <div>
-            <Image
+            <picture>
+              <source srcSet='/reklamos/reklama2.webp' type='image/webp' />
+              <img src='/reklamos/reklama2.png' alt='logo' />
+            </picture>
+            {/* <Image
               src='/reklamos/reklama2.png'
               alt='reklamos'
               width={400}
               height={200}
-            />
+            /> */}
             <div className={styles.sectionText}>
               <p>IF - Augintinio draudimas su if.lt</p>
             </div>
           </div>
           <div>
-            <Image
+            <picture>
+              <source srcSet='/reklamos/reklama3.webp' type='image/webp' />
+              <img src='/reklamos/reklama3.png' alt='logo' />
+            </picture>
+            {/* <Image
               src='/reklamos/reklama3.png'
               alt='reklamos'
               width={400}
               height={200}
-            />
+            /> */}
             <div className={styles.sectionText}>
               <p>Paskolų klubas - Lengvas refinansavimas.</p>
             </div>
           </div>
           <div>
-            <Image
+            <picture>
+              <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
+              <img src='/reklamos/reklama4.png' alt='logo' />
+            </picture>
+            {/* <Image
               src='/reklamos/reklama4.png'
               alt='reklamos'
               width={400}
               height={200}
-            />
+            /> */}
             <div className={styles.sectionText}>
               <p>Ačiū Tau, Islandija / Takk, Island!</p>
             </div>
@@ -146,12 +156,16 @@ const CulturalEvents = () => {
         <h2>Renginiai</h2>
         <section className={styles.secondSection}>
           <div className={styles.left}>
-            <Image
-              src='/images/easylog.png'
+            <picture>
+              <source srcSet='/images/easylog.webp' type='image/webp' />
+              <img src='/reklamos/easylog.png' alt='logo' />
+            </picture>
+            {/* <Image
+              src='/images/easylog.webp'
               alt='reklamos'
               width={600}
               height={300}
-            />
+            /> */}
           </div>
           <div className={styles.right}>
             <p>
@@ -162,12 +176,16 @@ const CulturalEvents = () => {
             </p>
           </div>
           <div className={styles.right}>
-            <Image
-              src='/images/easylog.png'
+            <picture>
+              <source srcSet='/images/easylog.webp' type='image/webp' />
+              <img src='/reklamos/easylog.png' alt='logo' />
+            </picture>
+            {/* <Image
+              src='/images/easylog.webp'
               alt='reklamos'
               width={600}
               height={300}
-            />
+            /> */}
           </div>
           <div className={styles.left}>
             <p>
@@ -178,12 +196,16 @@ const CulturalEvents = () => {
             </p>
           </div>
           <div className={styles.left}>
-            <Image
-              src='/images/easylog.png'
+            <picture>
+              <source srcSet='/images/easylog.webp' type='image/webp' />
+              <img src='/reklamos/easylog.png' alt='logo' />
+            </picture>
+            {/* <Image
+              src='/images/easylog.webp'
               alt='reklamos'
               width={600}
               height={300}
-            />
+            /> */}
           </div>
           <div className={styles.right}>
             <p>
@@ -194,12 +216,16 @@ const CulturalEvents = () => {
             </p>
           </div>
           <div className={styles.right}>
-            <Image
-              src='/images/easylog.png'
+            <picture>
+              <source srcSet='/images/easylog.webp' type='image/webp' />
+              <img src='/reklamos/easylog.png' alt='logo' />
+            </picture>
+            {/* <Image
+              src='/images/easylog.webp'
               alt='reklamos'
               width={600}
               height={300}
-            />
+            /> */}
           </div>
           <div className={styles.left}>
             <p>

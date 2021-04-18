@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 // baner video 15s
@@ -9,7 +8,7 @@ import Link from "next/link";
 // clean minimal style
 // galerijoj uzvedus ant nuotrukos full color from black n white
 // navigacija sticky: DONE
-// set up live
+// set up live DONE
 // nav icons no color
 
 const Banner = () => {

@@ -20,6 +20,22 @@
   margin: 0 auto;
 }
 
+.commercialSection div img {
+  width: 350px;
+  height: 200px;
+}
+
+/* css for on hover npt in black and white */
+/* .commercialSection img {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+.commercialSection img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+} */
+
 .galleryGrid {
   display: grid;
   align-items: center;
@@ -72,6 +88,11 @@
 
 .secondSection {
   width: 80vw;
+}
+
+.secondSection img {
+  width: 350px;
+  height: 200px;
 }
 
 .left {
