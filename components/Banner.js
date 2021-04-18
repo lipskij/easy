@@ -30,24 +30,32 @@ const Banner = () => {
           <button className='homebtn'>
             <Link href='/creativeProduction'>
               <a>
-                <Image
+                <picture>
+                  <source srcSet='/images/butonlogo1.webp' type='image/webp' />
+                  <img src='/images/butonlogo1-min.png' alt='logo' />
+                </picture>
+                {/* <Image
                   src='/images/butonlogo1-min.png'
                   alt='button logo'
                   width={300}
                   height={200}
-                />
+                /> */}
               </a>
             </Link>
           </button>
           <button className='homebtn'>
             <Link href='/art'>
               <a>
-                <Image
+              <picture>
+                  <source srcSet='/images/buttonlogo2.webp' type='image/webp' />
+                  <img src='/images/buttonlogo2-min.png' alt='logo' />
+                </picture>
+                {/* <Image
                   src='/images/buttonlogo2-min.png'
                   alt='button logo'
                   width={300}
                   height={200}
-                />
+                /> */}
               </a>
             </Link>
           </button>

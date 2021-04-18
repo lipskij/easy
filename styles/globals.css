@@ -103,6 +103,11 @@ nav li {
   box-shadow: 5px 5px 5px grey;
 }
 
+.homebtn img {
+  width: 300px;
+  height: 200px;
+}
+
 .slick-prev {
   left: -3%;
   z-index: 1;
