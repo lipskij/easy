@@ -45,7 +45,7 @@ const Banner = () => {
           <button className='homebtn'>
             <Link href='/art'>
               <a>
-              <picture>
+                <picture>
                   <source srcSet='/images/buttonlogo2.webp' type='image/webp' />
                   <img src='/images/buttonlogo2-min.png' alt='logo' />
                 </picture>
