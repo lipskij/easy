@@ -17,10 +17,10 @@ nav {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  min-height: 4rem;
-  height: 4rem;
+  min-height: 3rem;
+  height: 3rem;
   width: 100%;
-  z-index: 1;
+  z-index: 10000;
   background: black;
 }
 
@@ -35,9 +35,10 @@ nav a:hover {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   margin: 0;
+  width: 95%;
 }
 
 nav li {
@@ -47,9 +48,9 @@ nav li {
   font-size: 1rem;
 }
 
-nav img{
-  width: 120px;
-  height: 50px;
+nav img {
+  width: 100px;
+  height: 40px;
 }
 
 .footer {
@@ -81,6 +82,100 @@ nav img{
   width: 100%;
   animation: bannerVid 0.5s ease;
   animation-delay: 2.6s;
+}
+
+.banner-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 2;
+  min-height: 100vh;
+  padding-top: 8rem;
+}
+
+.banner-two-button {
+  padding-top: 5rem;
+}
+
+.banner-two button {
+  display: flex;
+  border: none;
+  background: none;
+  margin-top: 3rem;
+  transition-duration: 0.3s;
+  margin-left: 3.2rem;
+}
+
+.banner-two button:focus {
+  outline: none;
+}
+
+.banner-two button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.banner-two h1 {
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner-two-img {
+  display: flex;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.banner-two img {
+  height: 400px;
+}
+
+.img-one {
+  position: absolute;
+  top: 29%;
+  left: 18%;
+  z-index: 100;
+  padding: 1rem;
+  background-color: white;
+  animation: bannerImg 1s linear;
+}
+
+.img-two {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  padding: 1rem;
+  background-color: white;
+  animation: bannerImg 1.5s linear;
+}
+
+.img-three {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  z-index: 1;
+  padding: 1rem;
+  animation: bannerImg 0.5s linear;
+}
+
+.banner-two-txt p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner-two-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner-two-line {
+  width: 44vw;
+  height: 2px;
+  margin-top: 1rem;
+  margin-left: 10px;
+  background-color: black;
+  animation: line 0.5s linear;
 }
 
 .homebtndiv {
@@ -154,6 +249,25 @@ nav img{
   color: #38be51;
 }
 
+.second-nav {
+  position: absolute;
+  color: black;
+  top: 48px;
+  right: 5%;
+  z-index: 3;
+  border-bottom: thin solid black;
+  width: 90vw;
+  height: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 100;
+  background: white;
+}
+
+.second-nav a {
+  color: black;
+}
+
 @keyframes btn {
   from {
     transform: scale(0);
@@ -176,6 +290,33 @@ nav img{
   }
 }
 
+@keyframes bannerImg {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   /* .banner-vid {
     display: none;
@@ -194,7 +335,7 @@ nav img{
   nav li {
     padding: 0;
   }
-  
+
   .isOpen {
     display: flex;
     align-items: center;
