@@ -67,38 +67,6 @@ const Contacts = () => {
               />
             </div>
           </div>
-          <div className={styles.contactsCell}>
-            <div>
-              <h2>MIGLĖ Valašaitė</h2>
-              <h3>EASY Production Director</h3>
-              <p>+370 345 3453</p>
-              <p>mailas@emailas.com</p>
-            </div>
-            <div>
-              <Image
-                src='/images/easylog.png'
-                alt='foto'
-                width={300}
-                height={150}
-              />
-            </div>
-          </div>
-          <div className={styles.contactsCell}>
-            <div>
-              <h2>INGA Kalpakovaitė</h2>
-              <h3>EASY Management Director / Produser</h3>
-              <p>+370 345 3453</p>
-              <p>mailas@emailas.com</p>
-            </div>
-            <div>
-              <Image
-                src='/images/easylog.png'
-                alt='foto'
-                width={300}
-                height={150}
-              />
-            </div>
-          </div>
         </div>
       </div>
       <ContactForm />

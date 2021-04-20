@@ -22,15 +22,10 @@ const Nav = () => {
         toggled={isOpen}
         onClick={() => setIsOpen(!isOpen)}
       />
-      <picture>
-        <source srcSet='/images/easylog.webp' type='image/webp' />
-        <img src='/images/easylog.png' alt='logo' />
-      </picture>
-      {/* <Image src='/images/easylog.png' alt='logo' width={100} height={50} /> */}
       <ul className='desctop-nav'>
         <li>
           <Link href='/'>
-            <a>Pagrindinis</a>
+            <a>Home</a>
           </Link>
         </li>
         <li>
@@ -40,12 +35,17 @@ const Nav = () => {
         </li>
         <li>
           <Link href='/creativeProduction'>
-            <a>Renginiai</a>
+            <a>Production</a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/creativeProduction'>
+            <a>Workshops</a>
           </Link>
         </li>
         <li>
           <Link href='/contacts'>
-            <a href='/contacts'>Kontaktai</a>
+            <a href='/contacts'>Contacts</a>
           </Link>
         </li>
       </ul>
