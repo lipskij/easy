@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
+import BannerTwo from '../components/BannerTwo';
 import Banner from "../components/Banner";
 import Nav from "../components/Nav";
 
@@ -15,7 +16,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Nav />
-        <Banner />
+        {/* <Banner /> */}
+        <BannerTwo />
       </main>
       <Footer />
     </div>
