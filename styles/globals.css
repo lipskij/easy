@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
@@ -89,30 +90,18 @@ nav img {
   grid-template-columns: repeat(2, 1fr);
   line-height: 2;
   min-height: 100vh;
-  padding-top: 8rem;
+  padding-top: 3rem;
 }
 
 .banner-two-button {
   padding-top: 5rem;
 }
 
-.banner-two button {
-  display: flex;
-  border: none;
-  background: none;
-  margin-top: 3rem;
-  transition-duration: 0.3s;
-  margin-left: 3.2rem;
-}
-
-.banner-two button:focus {
-  outline: none;
-}
-
-.banner-two button:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition-duration: 0.3s;
+.banner-two-button a {
+  color: black;
+  left: 70%;
+  position: absolute;
+  animation: pulse 2s linear infinite;
 }
 
 .banner-two h1 {
@@ -266,6 +255,19 @@ nav img {
 
 .second-nav a {
   color: black;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+ 
 }
 
 @keyframes btn {

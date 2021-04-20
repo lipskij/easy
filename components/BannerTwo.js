@@ -1,6 +1,7 @@
 import React from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import BannerGallery from "./BannerGallery";
+import Link from 'next/link'
 
 const BannerTwo = () => {
   return (
@@ -26,13 +27,14 @@ const BannerTwo = () => {
           <div className='baner-two-line'></div>
           <div className='banner-two-button'>
             <p>Trumpas darbu pristatymas</p>
-            <button>
-              <MdKeyboardArrowDown size={80} />
-            </button>
+            <Link href='/#gallery'>
+              <a data-page='#gallery'><MdKeyboardArrowDown size={80} /></a>
+            </Link>
           </div>
         </div>
       </div>
-      <BannerGallery />
+      <a name='gallery'></a>
+      <BannerGallery name='gallery'/>
     </>
   );
 };
