@@ -52,7 +52,7 @@ const Contacts = () => {
         </div>
         <div className={styles.contacts}>
           <div className={styles.contactsCell}>
-            <div>
+            <div className={styles.cell}>
               <h2>AlGINA Bedulskė</h2>
               <h3>EASY Art Director</h3>
               <p>+370 345 3453</p>
@@ -62,12 +62,12 @@ const Contacts = () => {
               <Image
                 src='/images/easylog.png'
                 alt='foto'
-                width={300}
-                height={150}
+                width={600}
+                height={300}
               />
             </div>
           </div>
-          <div className={styles.contactsCell}>
+          {/* <div className={styles.contactsCell}>
             <div>
               <h2>MIGLĖ Valašaitė</h2>
               <h3>EASY Production Director</h3>
@@ -98,7 +98,7 @@ const Contacts = () => {
                 height={150}
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <ContactForm />

@@ -52,11 +52,19 @@
   text-align: center;
   line-height: 2;
   padding: 0 0 3rem 0;
+  /* align-items: center; */
+  height: 50vh;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .emailCell {
-  padding: 6rem 0 4rem 0;
+  padding: 6rem 0 0 0;
 }
 
 .emailCell h2 {
