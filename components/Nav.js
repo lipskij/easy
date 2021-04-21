@@ -53,7 +53,7 @@ const Nav = () => {
         <ul onClick={() => setIsOpen(!isOpen)}>
           <li>
             <Link href='/'>
-              <a>Pagrindinis</a>
+              <a>Home</a>
             </Link>
           </li>
           <li>
@@ -63,12 +63,17 @@ const Nav = () => {
           </li>
           <li>
             <Link href='/creativeProduction'>
-              <a>Renginiai</a>
+              <a>Production</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/creativeProduction'>
+              <a>Workshops</a>
             </Link>
           </li>
           <li>
             <Link href='/contacts'>
-              <a href='/contacts'>Kontaktai</a>
+              <a href='/contacts'>Contacts</a>
             </Link>
           </li>
         </ul>

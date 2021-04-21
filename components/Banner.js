@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import About from '../components/About'
+import About from "../components/About";
 
 // baner video 15s
 // after banner 2 buttons 'art' 'commerce': DONE
@@ -50,7 +50,6 @@ const Banner = () => {
             </a>
           </Link>
         </button>
-        
       </div>
       <div className='banner-vid'>
         <video
@@ -65,18 +64,16 @@ const Banner = () => {
           <source src='/images/EASYshowreel.mp4' type='video/mp4' />
           Your browser does not support the video tag.
         </video>
-       
       </div>
       <div className='banner-button'>
-          <p>About EASY</p>
-          <Link href='/#about'>
-            <a data-page='#about'>
-              <MdKeyboardArrowDown size={100} />
-            </a>
-          </Link>
-        </div>
-        <a name='about'></a>
-        <About name='about'/>
+        <Link href='/#about'>
+          <a data-page='#about'>
+            <MdKeyboardArrowDown size={100} />
+          </a>
+        </Link>
+      </div>
+      <a name='about'></a>
+      {/* <About name='about' /> */}
     </>
   );
 };

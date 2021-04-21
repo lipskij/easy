@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import styles from "../styles/CreativeProduction.module.css";
-import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 
@@ -36,6 +35,13 @@ const photos = [
 ];
 
 const CulturalEvents = () => {
+  const [style, setStyle] = useState(false);
+  const [style1, setStyle1] = useState(false);
+  const [style2, setStyle2] = useState(false);
+  const [style3, setStyle3] = useState(false);
+  const [style4, setStyle4] = useState(false);
+  const [style5, setStyle5] = useState(false);
+
   const setting = {
     lazyLoad: true,
     focusOnSelect: false,
@@ -97,65 +103,162 @@ const CulturalEvents = () => {
         <h1>Creative Production</h1>
         <h2>Reklamos</h2>
         <section className={styles.commercialSection}>
-          <div>
-            <picture>
+          <div
+            onMouseEnter={(e) => {
+              setStyle(true);
+            }}
+            onMouseLeave={(e) => {
+              setStyle(false);
+            }}
+          >
+            <div className={style ? styles.onHoverDiv : styles.onHoverDivNone}>
+              <video
+                width='100%'
+                height='auto'
+                autoPlay
+                muted
+                loop
+                disablePictureInPicture
+                controlsList='nofullscreen nodownload noremoteplayback'
+              >
+                <source src='/video/aciu_tau_islandija.mp4' type='video/mp4' />
+                Your browser does not support the video tag.
+              </video>
+              {/* <picture>
+                <source srcSet='/reklamos/reklama1.webp' type='image/webp' />
+                <img src='/reklamos/reklama1.png' alt='logo' />
+              </picture> */}
+              <div>
+                <p>Paskolų klubas - Žmogiškas skolinimas įsibėgėjo!</p>
+                <p>LNK Projektas</p>
+              </div>
+              <button>Daugiau</button>
+            </div>
+
+            <picture style={style ? { display: "none" } : { display: "flex" }}>
               <source srcSet='/reklamos/reklama1.webp' type='image/webp' />
               <img src='/reklamos/reklama1.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/reklamos/reklama2.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            /> */}
-            <div className={styles.sectionText}>
-              <p>Paskolų klubas - Žmogiškas skolinimas įsibėgėjo!</p>
-            </div>
           </div>
-          <div>
-            <picture>
+
+          <div
+            onMouseEnter={(e) => {
+              setStyle1(true);
+            }}
+            onMouseLeave={(e) => {
+              setStyle1(false);
+            }}
+          >
+            <div className={style1 ? styles.onHoverDiv : styles.onHoverDivNone}>
+              <picture>
+                <source srcSet='/reklamos/reklama2.webp' type='image/webp' />
+                <img src='/reklamos/reklama2.png' alt='logo' />
+              </picture>
+              <div>
+                <p>IF - Augintinio draudimas su if.lt</p>
+              </div>
+              <button>Daugiau</button>
+            </div>
+            <picture style={style1 ? { display: "none" } : { display: "flex" }}>
               <source srcSet='/reklamos/reklama2.webp' type='image/webp' />
               <img src='/reklamos/reklama2.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/reklamos/reklama2.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            /> */}
-            <div className={styles.sectionText}>
-              <p>IF - Augintinio draudimas su if.lt</p>
-            </div>
           </div>
-          <div>
-            <picture>
+
+          <div
+            onMouseEnter={(e) => {
+              setStyle2(true);
+            }}
+            onMouseLeave={(e) => {
+              setStyle2(false);
+            }}
+          >
+            <div className={style2 ? styles.onHoverDiv : styles.onHoverDivNone}>
+              <picture>
+                <source srcSet='/reklamos/reklama3.webp' type='image/webp' />
+                <img src='/reklamos/reklama3.png' alt='logo' />
+              </picture>
+              <div>
+                <p>Paskolų klubas - Lengvas refinansavimas.</p>
+              </div>
+              <button>Daugiau</button>
+            </div>
+            <picture style={style2 ? { display: "none" } : { display: "flex" }}>
               <source srcSet='/reklamos/reklama3.webp' type='image/webp' />
               <img src='/reklamos/reklama3.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/reklamos/reklama3.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            /> */}
-            <div className={styles.sectionText}>
-              <p>Paskolų klubas - Lengvas refinansavimas.</p>
-            </div>
           </div>
-          <div>
-            <picture>
+
+          <div
+            onMouseEnter={(e) => {
+              setStyle3(true);
+            }}
+            onMouseLeave={(e) => {
+              setStyle3(false);
+            }}
+          >
+            <div className={style3 ? styles.onHoverDiv : styles.onHoverDivNone}>
+              <picture>
+                <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
+                <img src='/reklamos/reklama4.png' alt='logo' />
+              </picture>
+              <div>
+                <p>Ačiū Tau, Islandija / Takk, Island!</p>
+              </div>
+              <button>Daugiau</button>
+            </div>
+            <picture style={style3 ? { display: "none" } : { display: "flex" }}>
               <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
               <img src='/reklamos/reklama4.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/reklamos/reklama4.png'
-              alt='reklamos'
-              width={400}
-              height={200}
-            /> */}
-            <div className={styles.sectionText}>
-              <p>Ačiū Tau, Islandija / Takk, Island!</p>
+          </div>
+
+          <div
+            onMouseEnter={(e) => {
+              setStyle4(true);
+            }}
+            onMouseLeave={(e) => {
+              setStyle4(false);
+            }}
+          >
+            <div className={style4 ? styles.onHoverDiv : styles.onHoverDivNone}>
+              <picture>
+                <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
+                <img src='/reklamos/reklama4.png' alt='logo' />
+              </picture>
+              <div>
+                <p>Ačiū Tau, Islandija / Takk, Island!</p>
+              </div>
+              <button>Daugiau</button>
             </div>
+            <picture style={style4 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
+              <img src='/reklamos/reklama4.png' alt='logo' />
+            </picture>
+          </div>
+
+          <div
+            onMouseEnter={(e) => {
+              setStyle5(true);
+            }}
+            onMouseLeave={(e) => {
+              setStyle5(false);
+            }}
+          >
+            <div className={style5 ? styles.onHoverDiv : styles.onHoverDivNone}>
+              <picture>
+                <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
+                <img src='/reklamos/reklama4.png' alt='logo' />
+              </picture>
+              <div>
+                <p>Ačiū Tau, Islandija / Takk, Island!</p>
+              </div>
+              <button>Daugiau</button>
+            </div>
+            <picture style={style5 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
+              <img src='/reklamos/reklama4.png' alt='logo' />
+            </picture>
           </div>
         </section>
         <div className={styles.button}>
@@ -171,12 +274,6 @@ const CulturalEvents = () => {
               <source srcSet='/images/easylog.webp' type='image/webp' />
               <img src='/reklamos/easylog.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/images/easylog.webp'
-              alt='reklamos'
-              width={600}
-              height={300}
-            /> */}
           </div>
           <div className={styles.right}>
             <p>
@@ -191,12 +288,6 @@ const CulturalEvents = () => {
               <source srcSet='/images/easylog.webp' type='image/webp' />
               <img src='/reklamos/easylog.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/images/easylog.webp'
-              alt='reklamos'
-              width={600}
-              height={300}
-            /> */}
           </div>
           <div className={styles.left}>
             <p>
@@ -211,12 +302,6 @@ const CulturalEvents = () => {
               <source srcSet='/images/easylog.webp' type='image/webp' />
               <img src='/reklamos/easylog.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/images/easylog.webp'
-              alt='reklamos'
-              width={600}
-              height={300}
-            /> */}
           </div>
           <div className={styles.right}>
             <p>
@@ -231,12 +316,6 @@ const CulturalEvents = () => {
               <source srcSet='/images/easylog.webp' type='image/webp' />
               <img src='/reklamos/easylog.png' alt='logo' />
             </picture>
-            {/* <Image
-              src='/images/easylog.webp'
-              alt='reklamos'
-              width={600}
-              height={300}
-            /> */}
           </div>
           <div className={styles.left}>
             <p>

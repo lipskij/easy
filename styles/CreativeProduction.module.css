@@ -11,18 +11,66 @@
 
 .commercialSection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-  width: 90%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
 }
 
+.commercialSection img {
+  width: 450px;
+  height: 250px;
+}
+
+.commercialSection picture {
+  height: 250px;
+}
 .commercialSection div {
-  margin: 0 auto;
+  height: 250px;
 }
 
-.commercialSection div img {
-  width: 350px;
-  height: 200px;
+.onHoverDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.onHoverDivNone {
+  display: none;
+}
+
+.onHoverDiv div {
+  position: absolute;
+}
+.onHoverDiv p {
+  margin-top: 1rem;
+}
+.onHoverDiv img {
+  opacity: 40%;
+}
+
+.onHoverDiv video {
+  opacity: 40%;
+  width: 450px;
+  height: 250px;
+}
+
+.onHoverDiv button {
+  position: absolute;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: thin white solid;
+  background: transparent;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.onHoverDiv button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  color: black;
+  background: white;
+  cursor: pointer;
 }
 
 /* css for on hover npt in black and white */
@@ -54,7 +102,7 @@
   width: 95vw;
   height: 1px;
   margin: 5rem;
-  background-color: black;
+  background-color: white;
 }
 
 .video {

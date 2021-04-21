@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
+import About from '../components/About';
 import Nav from "../components/Nav";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <Nav />
         <Banner />
+        <About />
       </main>
       <Footer />
     </div>
