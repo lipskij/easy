@@ -11,20 +11,20 @@
 
 .commercialSection {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto auto auto;
   justify-content: center;
 }
 
 .commercialSection img {
-  width: 450px;
-  height: 250px;
+  width: 420px;
+  height: 220px;
 }
 
 .commercialSection picture {
-  height: 250px;
+  height: 220px;
 }
 .commercialSection div {
-  height: 250px;
+  height: 220px;
 }
 
 .onHoverDiv {
@@ -73,17 +73,6 @@
   cursor: pointer;
 }
 
-/* css for on hover npt in black and white */
-/* .commercialSection img {
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
-}
-
-.commercialSection img:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-} */
-
 .galleryGrid {
   display: grid;
   align-items: center;
@@ -102,7 +91,7 @@
   width: 95vw;
   height: 1px;
   margin: 5rem;
-  background-color: white;
+  background-color: grey;
 }
 
 .video {

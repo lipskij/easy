@@ -112,7 +112,7 @@ const CulturalEvents = () => {
             }}
           >
             <div className={style ? styles.onHoverDiv : styles.onHoverDivNone}>
-              <video
+              {/* <video
                 width='100%'
                 height='auto'
                 autoPlay
@@ -123,11 +123,11 @@ const CulturalEvents = () => {
               >
                 <source src='/video/aciu_tau_islandija.mp4' type='video/mp4' />
                 Your browser does not support the video tag.
-              </video>
-              {/* <picture>
+              </video> */}
+              <picture>
                 <source srcSet='/reklamos/reklama1.webp' type='image/webp' />
                 <img src='/reklamos/reklama1.png' alt='logo' />
-              </picture> */}
+              </picture>
               <div>
                 <p>Paskolų klubas - Žmogiškas skolinimas įsibėgėjo!</p>
                 <p>LNK Projektas</p>
