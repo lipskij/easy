@@ -2,11 +2,16 @@
   min-height: 100vh;
   display: flex;
   padding-top: 5rem;
-  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  border-bottom: thin solid black;
+  border-bottom: thin solid grey;
   padding-bottom: 4rem;
+}
+
+.alginaFoto {
+  width: 400px;
+  height: 200px;
+  background: grey;
 }
 
 .list {
@@ -27,20 +32,21 @@
   text-decoration: none;
 }
 
-.contacts {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-}
 
-.contacts h2 {
+.contactsCell h2 {
   background: #32e060;
   width: 20rem;
   border-radius: 50px;
 }
 
-.contacts h3 {
-  font-size: 1rem;
+.contactsCell div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsCell h3 {
   font-weight: 100;
   margin-bottom: 1rem;
 }
@@ -51,8 +57,9 @@
   gap: 5rem;
   text-align: center;
   line-height: 2;
-  padding: 0 0 3rem 0;
   align-items: center;
+  height: 80vh;
+  justify-content: center;
 }
 
 .emailCell {
@@ -105,6 +112,17 @@
 
 .button:hover {
   background-color: black;
+}
+
+.icons {
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+  color: #38be51;
 }
 
 

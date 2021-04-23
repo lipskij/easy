@@ -24,49 +24,40 @@ const Contacts = () => {
           <div className={styles.listItem}>
             <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <FaYoutube className='icons' size={32} />
+                <FaYoutube className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
           <div className={styles.listItem}>
             <Link href='https://www.facebook.com/easycreativeproduction/'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <AiFillFacebook className='icons' size={32} />
+                <AiFillFacebook className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
           <div className={styles.listItem}>
             <Link href='https://vimeo.com/user9888997'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <FaVimeoV className='icons' size={32} />
+                <FaVimeoV className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
           <div className={styles.listItem}>
             <Link href='https://www.instagram.com/easycreativeproduction/'>
               <a className={styles.logo} target='_blank' rel='noopener'>
-                <AiFillInstagram className='icons' size={32} />
+                <AiFillInstagram className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
         </div>
-        <div className={styles.contacts}>
-          <div className={styles.contactsCell}>
-            <div>
-              <h2>AlGINA Bedulskė</h2>
-              <h3>EASY Art Director</h3>
-              <p>+370 345 3453</p>
-              <p>mailas@emailas.com</p>
-            </div>
-            <div>
-              <Image
-                src='/images/easylog.png'
-                alt='foto'
-                width={300}
-                height={150}
-              />
-            </div>
+        <div className={styles.contactsCell}>
+          <div>
+            <h2>AlGINA Bedulskė</h2>
+            <h3>EASY Art Director</h3>
+            <p>+370 345 3453</p>
+            <p>mailas@emailas.com</p>
           </div>
+          <div className={styles.alginaFoto}></div>
         </div>
       </div>
       <ContactForm />
