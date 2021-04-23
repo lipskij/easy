@@ -73,7 +73,6 @@ const Banner = () => {
         </Link>
       </div>
       <a name='about'></a>
-      {/* <About name='about' /> */}
     </>
   );
 };

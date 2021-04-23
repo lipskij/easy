@@ -10,9 +10,9 @@ const Hamburger = ({ onClick, toggled, className = "" }) => {
           background: none;
           position: relative;
           padding: 5px 2px 2px 2px;
-          min-width: 40px;
+          min-width: 45px;
           min-height: 40px;
-          margin-left: 1rem;
+          margin-right: 1rem;
         }
         .bar {
           background-color: #b3ec79;

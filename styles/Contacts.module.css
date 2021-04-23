@@ -127,11 +127,19 @@
 
 
 @media screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+
+  }
+  .alginaFoto {
+    width: 300px;
+  }
   .contactsCell {
     display: flex;
     flex-direction: column;
     height: 100vh;
     padding: 0;
+    width: 95vw;
   }
   .emailForm {
     margin: 0 auto;
