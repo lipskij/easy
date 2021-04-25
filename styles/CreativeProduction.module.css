@@ -105,6 +105,7 @@
   transition-duration: 0.3s;
   font-size: 1.2rem;
   border-radius: 5px;
+  border: solid thin white;
 }
 
 .video:hover {
@@ -113,8 +114,7 @@
   transition-duration: 0.3s;
   background: aliceblue;
   color: black;
-  border: solid thin black;
-  box-shadow: 5px 5px 5px gray;
+  border: solid thin wite;
 }
 
 .button {

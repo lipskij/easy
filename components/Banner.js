@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import About from "../components/About";
 
 // baner video 15s
 // after banner 2 buttons 'art' 'commerce': DONE
@@ -41,7 +40,7 @@ const Banner = () => {
           </Link>
         </button>
         <button className='homebtn'>
-          <Link href='/art'>
+          <Link href='/artInAction'>
             <a>
               <picture>
                 <source srcSet='/images/buttonlogo2.webp' type='image/webp' />
@@ -72,7 +71,6 @@ const Banner = () => {
           </a>
         </Link>
       </div>
-      <a name='about'></a>
     </>
   );
 };

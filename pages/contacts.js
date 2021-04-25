@@ -6,7 +6,6 @@ import { FaYoutube, FaVimeoV } from "react-icons/fa";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 
 const Contacts = () => {

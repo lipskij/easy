@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Drawer from "./Drower";
 import Hamburger from "./Hamburger";
@@ -14,8 +14,27 @@ const { className: hamburgerClassName, styles: hamburgerStyles } = css.resolve`
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffset(window.pageYOffset);
+    };
+    return () => {
+      window.onscroll = () => {
+        setOffset(0);
+      };
+    };
+  }, []);
+
   return (
-    <nav>
+    <nav
+      style={
+        offset > 3
+          ? { background: "#16161d", transitionDuration: "0.3s" }
+          : { background: "transparent", transitionDuration: "0.3s" }
+      }
+    >
       {hamburgerStyles}
       <Hamburger
         className={hamburgerClassName}
@@ -39,7 +58,7 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href='/creativeProduction'>
+          <Link href='/workshops'>
             <a>Workshops</a>
           </Link>
         </li>
@@ -67,7 +86,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link href='/creativeProduction'>
+            <Link href='/workshops'>
               <a>Workshops</a>
             </Link>
           </li>
