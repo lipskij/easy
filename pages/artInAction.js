@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import styles from "../styles/Art.module.css";
 import ReactPlayer from "react-player/lazy";
 
-// berta antras video dar nera
 // vimeo video nepasileidzia
 
 const Art = () => {
@@ -35,6 +34,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=sKDraLWbsr4'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.playerWrapper}>
@@ -43,6 +45,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=vgMutWree7k&ab_channel=THEBACKSOFFICIAL'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.text}>
@@ -66,6 +71,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=82T3mPCbs6A&ab_channel=WhaleSounds'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.text}>
@@ -89,6 +97,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=2RwpwQwgZ-A&ab_channel=ShowmakersAkademija'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.text}>
@@ -112,6 +123,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=xc02tXluMlc&ab_channel=theballandchainmusic'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.playerWrapper}>
@@ -120,6 +134,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=cYgQQJxoh54&ab_channel=theballandchainmusic'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.playerWrapper}>
@@ -128,6 +145,9 @@ const Art = () => {
               url='https://www.youtube.com/watch?v=i2pAaEB1cz8&ab_channel=theballandchainmusic'
               width='100%'
               height='100%'
+              controls={true}
+              volume={1}
+              muted={false}
             />
           </div>
           <div className={styles.text}>
