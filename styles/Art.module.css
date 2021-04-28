@@ -23,14 +23,14 @@
 
 .commercialSection img {
   width: 450px;
-  height: 220px;
+  height: 230px;
 }
 
 .commercialSection picture {
-  height: 220px;
+  height: 230px;
 }
 .commercialSection div {
-  height: 220px;
+  height: 230px;
 }
 
 .onHoverDiv {
@@ -52,7 +52,7 @@
   display: flex;
   flex-direction: column;
   width: 450px;
-  height: 220px;
+  height: 230px;
   font-size: 1.3rem;
   line-height: 2;
   margin-top: 2rem;
@@ -66,7 +66,7 @@
 .onHoverDiv video {
   opacity: 40%;
   width: 450px;
-  height: 220px;
+  height: 230px;
   background: black;
 }
 
