@@ -16,36 +16,75 @@
 
 .commercialSection {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto auto auto;
   justify-content: center;
-  width: 90vw;
-  height: 60vh;
-  line-height: 2;
-  padding: 1rem 1rem 5rem 1rem;
-  border-top: thin solid grey;
-  border-bottom: thin solid grey;
-  background: transparent;
+  width: 95vw;
+  padding: 3rem 0 0 0;
 }
 
-.playerWrapper {
-  position: relative;
-  height: 200px;
-
-  /* padding-top: 56.25% Player ratio: 100 / (1280 / 720) */
+.commercialSection img {
+  width: 450px;
+  height: 220px;
 }
 
-.reactPlayer {
-  position: absolute;
-  top: 0;
-  left: 0;
+.commercialSection picture {
+  height: 220px;
+}
+.commercialSection div {
+  height: 220px;
 }
 
-.text{
+.onHoverDiv {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.onHoverDivNone {
+  display: none;
+}
+
+.onHoverDiv div {
+  position: absolute;
+}
+.onHoverDiv p {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 220px;
+  font-size: 1.3rem;
+  line-height: 2;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.onHoverDiv img {
+  opacity: 40%;
+}
+
+.onHoverDiv video {
+  opacity: 40%;
+  width: 450px;
+  height: 220px;
+  background: black;
+}
+
+.onHoverDiv a {
+  position: absolute;
+  margin-top: 4rem;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.onHoverDiv a:hover {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+  cursor: pointer;
+  color: #38be51;
 }
 
 /* workshop page */
@@ -92,7 +131,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .commercialSection div{
+  .commercialSection div {
     display: flex;
     flex-direction: column;
     width: 95vw;
