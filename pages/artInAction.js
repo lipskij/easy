@@ -208,7 +208,7 @@ const Art = () => {
 
             <picture style={style3 ? { display: "none" } : { display: "flex" }}>
               <source srcSet='/images/freek.webp' type='image/webp' />
-              <img src='/images/freek.png' alt='logo' sizes='50vw' />
+              <img src='/images/freek.png' alt='logo' />
             </picture>
           </div>
           {/* The ball&chain */}

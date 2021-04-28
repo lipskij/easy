@@ -130,6 +130,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .main h1 {
+    font-size: 1.5rem;
+  }
   .commercialSection {
     display: flex;
     flex-direction: column;
