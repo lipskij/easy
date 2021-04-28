@@ -97,7 +97,6 @@ const Workshops = () => {
           </button>
         </Link>
       </div>
-      <div className={styles.sectionLine}></div>
       <h2>Mokymai</h2>
       <section className={styles.dirbtuvesSection}>
         <div className={styles.dirbtuvesCell}>

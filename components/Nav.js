@@ -44,27 +44,27 @@ const Nav = () => {
       <ul className='desctop-nav'>
         <li>
           <Link href='/'>
-            <a>Home</a>
+            <a name='home'>Home</a>
           </Link>
         </li>
         <li>
           <Link href='/artInAction'>
-            <a>Art</a>
+            <a name='art'>Art</a>
           </Link>
         </li>
         <li>
           <Link href='/creativeProduction'>
-            <a>Production</a>
+            <a name='production'>Production</a>
           </Link>
         </li>
         <li>
           <Link href='/workshops'>
-            <a>Workshops</a>
+            <a name='workshops'>Workshops</a>
           </Link>
         </li>
         <li>
           <Link href='/contacts'>
-            <a href='/contacts'>Contacts</a>
+            <a name='contacts' href='/contacts'>Contacts</a>
           </Link>
         </li>
       </ul>
@@ -72,27 +72,27 @@ const Nav = () => {
         <ul onClick={() => setIsOpen(!isOpen)}>
           <li>
             <Link href='/'>
-              <a>Home</a>
+              <a name='home'>Home</a>
             </Link>
           </li>
           <li>
             <Link href='/artInAction'>
-              <a>Art</a>
+              <a name='art'>Art</a>
             </Link>
           </li>
           <li>
             <Link href='/creativeProduction'>
-              <a>Production</a>
+              <a name='production'>Production</a>
             </Link>
           </li>
           <li>
             <Link href='/workshops'>
-              <a>Workshops</a>
+              <a name='workshops'>Workshops</a>
             </Link>
           </li>
           <li>
             <Link href='/contacts'>
-              <a href='/contacts'>Contacts</a>
+              <a name='contacts' href='/contacts'>Contacts</a>
             </Link>
           </li>
         </ul>

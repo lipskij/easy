@@ -5,24 +5,50 @@
   justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
-  width: 100%;
-  padding-top: 5rem;
+  min-width: 100%;
+  padding: 3rem 0 5rem 0;
 }
 
 .main h1,
 .main h2 {
-  padding-bottom: 5rem;
+  padding: 3rem 0 3rem 0;
 }
 
-.commercialSection div {
+.commercialSection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  width: 80%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: 90vw;
+  height: 60vh;
   line-height: 2;
-  padding: 2rem;
-  margin: 0 auto;
+  padding: 1rem 1rem 5rem 1rem;
+  border-top: thin solid grey;
+  border-bottom: thin solid grey;
+  background: transparent;
 }
+
+.playerWrapper {
+  position: relative;
+  height: 200px;
+
+  /* padding-top: 56.25% Player ratio: 100 / (1280 / 720) */
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* workshop page */
 
 .video {
   padding: 1rem;
@@ -50,13 +76,6 @@
   justify-content: center;
   height: 3rem;
   margin: 4rem 0 2rem 0;
-}
-
-.sectionLine {
-  width: 95vw;
-  height: 1px;
-  margin: 5rem;
-  background-color: grey;
 }
 
 .dirbtuvesSection {
