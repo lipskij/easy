@@ -59,6 +59,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=sKDraLWbsr4&ab_channel=THEBACKSOFFICIAL'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=sKDraLWbsr4&ab_channel=THEBACKSOFFICIAL'
                   target='_blank'
@@ -69,6 +71,7 @@ const Art = () => {
             </div>
 
             <picture style={style ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/backs1.webp' type='image/webp' />
               <img src='/images/backs1.png' alt='logo' />
             </picture>
           </div>
@@ -101,6 +104,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=vgMutWree7k&ab_channel=THEBACKSOFFICIAL'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=vgMutWree7k&ab_channel=THEBACKSOFFICIAL'
                   target='_blank'
@@ -111,6 +116,7 @@ const Art = () => {
             </div>
 
             <picture style={style1 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/backs2.webp' type='image/webp' />
               <img src='/images/backs2.png' alt='logo' />
             </picture>
           </div>
@@ -144,6 +150,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=82T3mPCbs6A'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=82T3mPCbs6A'
                   target='_blank'
@@ -154,6 +162,7 @@ const Art = () => {
             </div>
 
             <picture style={style2 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/vandeny.webp' type='image/webp' />
               <img src='/images/vandeny.png' alt='logo' />
             </picture>
           </div>
@@ -186,6 +195,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=2RwpwQwgZ-A'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=2RwpwQwgZ-A'
                   target='_blank'
@@ -196,7 +207,8 @@ const Art = () => {
             </div>
 
             <picture style={style3 ? { display: "none" } : { display: "flex" }}>
-              <img src='/images/freek.png' alt='logo' />
+              <source srcSet='/images/freek.webp' type='image/webp' />
+              <img src='/images/freek.png' alt='logo' sizes='50vw' />
             </picture>
           </div>
           {/* The ball&chain */}
@@ -228,6 +240,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=xc02tXluMlc'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=xc02tXluMlc'
                   target='_blank'
@@ -238,6 +252,7 @@ const Art = () => {
             </div>
 
             <picture style={style4 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/ball2.webp' type='image/webp' />
               <img src='/images/ball2.png' alt='logo' />
             </picture>
           </div>
@@ -270,6 +285,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=cYgQQJxoh54'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=cYgQQJxoh54'
                   target='_blank'
@@ -280,6 +297,7 @@ const Art = () => {
             </div>
 
             <picture style={style5 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/ball1.webp' type='image/webp' />
               <img src='/images/ball1.png' alt='logo' />
             </picture>
           </div>
@@ -312,6 +330,8 @@ const Art = () => {
               </div>
               <Link href='https://www.youtube.com/watch?v=i2pAaEB1cz8'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://www.youtube.com/watch?v=i2pAaEB1cz8'
                   target='_blank'
@@ -322,6 +342,7 @@ const Art = () => {
             </div>
 
             <picture style={style6 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/ball3.webp' type='image/webp' />
               <img src='/images/ball3.png' alt='logo' />
             </picture>
           </div>
@@ -354,6 +375,8 @@ const Art = () => {
               </div>
               <Link href='https://vimeo.com/509684555/55ca3e6aa1'>
                 <a
+                  rel='noreferrer'
+                  rel='noopener'
                   aria-label='video'
                   href='https://vimeo.com/509684555/55ca3e6aa1'
                   target='_blank'
@@ -364,6 +387,7 @@ const Art = () => {
             </div>
 
             <picture style={style7 ? { display: "none" } : { display: "flex" }}>
+              <source srcSet='/images/dovile.webp' type='image/webp' />
               <img src='/images/dovile.png' alt='logo' />
             </picture>
           </div>

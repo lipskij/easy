@@ -19,7 +19,6 @@
   grid-template-columns: auto auto auto;
   justify-content: center;
   width: 95vw;
-  padding: 3rem 0 0 0;
 }
 
 .commercialSection img {
@@ -131,10 +130,36 @@
 }
 
 @media screen and (max-width: 480px) {
-  .commercialSection div {
+  .commercialSection {
     display: flex;
     flex-direction: column;
     width: 95vw;
+  }
+  .commercialSection picture {
+    height: 190px;
+  }
+  .commercialSection div {
+    height: 190px;
+  }
+  .commercialSection img {
+    width: 340px;
+    height: 190px;
+  }
+  .onHoverDiv video {
+    opacity: 40%;
+    width: 340px;
+    height: 190px;
+    background: black;
+  }
+  .onHoverDiv p {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 190px;
+    line-height: 2;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 

@@ -15,7 +15,7 @@ const Hamburger = ({ onClick, toggled, className = "" }) => {
           margin-right: 1rem;
         }
         .bar {
-          background-color: #b3ec79;
+          background-color: #38be51;
           min-height: 4px;
           min-width: 20px;
           transition: transform 300ms;
