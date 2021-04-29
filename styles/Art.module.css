@@ -4,86 +4,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-height: 100vh;
-  min-width: 100%;
   padding: 3rem 0 5rem 0;
+  width: 95vw;
+  margin: 0 auto;
 }
 
 .main h1,
 .main h2 {
   padding: 3rem 0 3rem 0;
-}
-
-.commercialSection {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  width: 95vw;
-}
-
-.commercialSection img {
-  width: 450px;
-  height: 230px;
-}
-
-.commercialSection picture {
-  height: 230px;
-}
-.commercialSection div {
-  height: 230px;
-}
-
-.onHoverDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.onHoverDivNone {
-  display: none;
-}
-
-.onHoverDiv div {
-  position: absolute;
-}
-.onHoverDiv p {
-  display: flex;
-  flex-direction: column;
-  width: 450px;
-  height: 230px;
-  font-size: 1.3rem;
-  line-height: 2;
-  margin-top: 2rem;
-  justify-content: space-between;
-  align-items: center;
-}
-.onHoverDiv img {
-  opacity: 40%;
-}
-
-.onHoverDiv video {
-  opacity: 40%;
-  width: 450px;
-  height: 230px;
-  background: black;
-}
-
-.onHoverDiv a {
-  position: absolute;
-  margin-top: 4rem;
-  border-radius: 50%;
-  background: transparent;
-  color: white;
-  transition-duration: 0.3s;
-}
-
-.onHoverDiv a:hover {
-  transform: scale(1.2);
-  transition-duration: 0.3s;
-  cursor: pointer;
-  color: #38be51;
 }
 
 /* workshop page */
@@ -129,40 +57,35 @@
   height: 43rem;
 }
 
+/* video modal */
+
+.closeBtn {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  left: 45%;
+  right: 0;
+  top: 10%;
+  bottom: 0;
+  color: white;
+  transform: scale(3);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.closeBtn:hover {
+  transform: scale(3.5);
+  transition-duration: 0.3s;
+  color: #38be51;
+}
+
 @media screen and (max-width: 480px) {
   .main h1 {
     font-size: 1.5rem;
   }
-  .commercialSection {
-    display: flex;
-    flex-direction: column;
-    width: 95vw;
-  }
-  .commercialSection picture {
-    height: 190px;
-  }
-  .commercialSection div {
-    height: 190px;
-  }
-  .commercialSection img {
-    width: 340px;
-    height: 190px;
-  }
-  .onHoverDiv video {
-    opacity: 40%;
-    width: 340px;
-    height: 190px;
-    background: black;
-  }
-  .onHoverDiv p {
-    display: flex;
-    flex-direction: column;
-    width: 340px;
-    height: 190px;
-    line-height: 2;
-    margin-top: 1rem;
-    justify-content: space-between;
-    align-items: center;
+  .closeBtn {
+    left: 38%;
+    top: 15%;
   }
 }
 
