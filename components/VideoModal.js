@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { FaRegWindowClose } from "react-icons/fa";
 import styles from "../styles/Art.module.css";
 
+// add on hover image and text
+
 const OpenModal = ({ setIsOpen, url, isOpen, portalContainer }) => {
   return isOpen
     ? ReactDOM.createPortal(
@@ -67,6 +69,8 @@ const OpenModal = ({ setIsOpen, url, isOpen, portalContainer }) => {
             <figure className='gallery-image'>
               <button className='img-btn'>
                 <video
+                  // onPouse to fix err when pousing and clicking on the video window
+                  onPause={() => setIsOpen(!isOpen)}
                   width='100%'
                   height='auto'
                   autoPlay
@@ -87,8 +91,9 @@ const OpenModal = ({ setIsOpen, url, isOpen, portalContainer }) => {
     : null;
 };
 
-const Item = ({ url, url2 }) => {
+const Item = ({ url, url2, txt }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hover, setHover] = useState(false);
 
   const portalContainer = useRef(null);
 
@@ -104,15 +109,12 @@ const Item = ({ url, url2 }) => {
         }
         .gallery img {
           width: 100%;
-          height: 100%;
+          height: 170px;
           transition: all 0.3s;
         }
-        {/* .gallery img:hover {
-          transform: scale(1.03);
-        } */}
         .gallery-image {
           width: 100%;
-          height: auto;
+          height: 170px;
           margin: 0 auto;
           padding: 0;
         }
@@ -122,22 +124,35 @@ const Item = ({ url, url2 }) => {
           outline: none;
           background: transparent;
           padding: 0;
+          width: 340px;
         }
         @media screen and (max-width: 480px) {
           .gallery {
             margin: 0 auto;
           }
-          .gallery img {
-            box-shadow: 8px 8px 8px var(--nav-color);
-          }
         }
       `}</style>
-      <div className='gallery'>
-        <figure className='gallery-image'>
-          <button className='img-btn'>
-            <img src={url2} alt='lol' onClick={() => setIsOpen(!isOpen)} />
+      <div
+        className='gallery'
+        onMouseEnter={(e) => {
+          setHover(true);
+        }}
+        onMouseLeave={(e) => {
+          setHover(false);
+        }}
+      >
+        <figure className={hover ? styles.onHoverDiv : styles.onHoverDivNone}>
+          <button className='img-btn' onClick={() => setIsOpen(!isOpen)}>
+            <img src={url2} alt='video' />
           </button>
+          {txt}
         </figure>
+
+        <img
+          src={url2}
+          alt='video'
+          style={hover ? { display: "none" } : { display: "flex" }}
+        />
       </div>
     </div>
   );
