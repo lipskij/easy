@@ -5,7 +5,7 @@ import styles from "../styles/Art.module.css";
 
 // add on hover image and text
 
-const OpenModal = ({ setIsOpen, url, isOpen, portalContainer }) => {
+const OpenModal = ({ setIsOpen, url, isOpen, portalContainer, txt }) => {
   return isOpen
     ? ReactDOM.createPortal(
         <div className='isOpen'>
@@ -144,6 +144,9 @@ const Item = ({ url, url2, txt }) => {
         }}
         onMouseLeave={(e) => {
           setHover(false);
+        }}
+        onClick={(e) => {
+          setIsOpen(!isOpen);
         }}
       >
         <figure className={hover ? styles.onHoverDiv : styles.onHoverDivNone}>
