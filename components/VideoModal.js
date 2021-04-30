@@ -10,6 +10,7 @@ const OpenModal = ({ setIsOpen, url, isOpen, portalContainer }) => {
     ? ReactDOM.createPortal(
         <div className='isOpen'>
           <FaRegWindowClose
+            size={50}
             className={styles.closeBtn}
             onClick={() => setIsOpen(!isOpen)}
           />
@@ -110,7 +111,6 @@ const Item = ({ url, url2, txt }) => {
         .gallery img {
           width: 100%;
           height: 220px;
-          transition: all 0.3s;
         }
         .gallery-image {
           width: 100%;
@@ -129,6 +129,11 @@ const Item = ({ url, url2, txt }) => {
         @media screen and (max-width: 480px) {
           .gallery {
             margin: 0 auto;
+          }
+
+          .gallery img {
+            height: auto;
+            padding: 1rem 0 0 0;
           }
         }
       `}</style>

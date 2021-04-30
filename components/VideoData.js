@@ -88,17 +88,16 @@ function Gal() {
           column-count: 3;
           gap: 0px;
         }
-        @media screen and (max-width: 1000px) {
+
+        @media screen and (max-width: 900px) {
           .try {
             column-count: 2;
           }
         }
 
-        @media screen and (max-width: 680px) {
+        @media screen and (max-width: 480px) {
           .try {
-            line-height: 2;
             column-count: 1;
-            column-gap: 0px;
             margin: 0 auto;
           }
         }

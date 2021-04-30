@@ -68,13 +68,12 @@
   top: 10%;
   bottom: 0;
   color: white;
-  transform: scale(3);
   cursor: pointer;
   transition-duration: 0.3s;
 }
 
 .closeBtn:hover {
-  transform: scale(3.5);
+  transform: scale(1.2);
   transition-duration: 0.3s;
   color: #38be51;
 }
@@ -95,24 +94,34 @@
 
 .onHoverDiv div {
   position: absolute;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
 }
 
 .onHoverDiv p {
-  display: flex;
-  position: absolute;
-  height: auto;
-  min-width: 450px;
-  left: 50%;
   font-size: 1.3rem;
   line-height: 2;
   margin-top: 2rem;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-
 }
 .onHoverDiv img {
   opacity: 30%;
+}
+
+@media screen and (max-width: 900px) {
+  .onHoverDiv p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    min-width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -122,6 +131,19 @@
   .closeBtn {
     left: 38%;
     top: 15%;
+  }
+  .onHoverDiv {
+    min-height: 100%;
+  }
+  .onHoverDiv p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    min-width: 95vw;
+    left: 0;
+    top: 50%;
   }
 }
 
