@@ -88,7 +88,13 @@ function Gal() {
           column-count: 3;
           gap: 0px;
         }
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 1000px) {
+          .try {
+            column-count: 2;
+          }
+        }
+
+        @media screen and (max-width: 680px) {
           .try {
             line-height: 2;
             column-count: 1;

@@ -109,12 +109,12 @@ const Item = ({ url, url2, txt }) => {
         }
         .gallery img {
           width: 100%;
-          height: 170px;
+          height: 220px;
           transition: all 0.3s;
         }
         .gallery-image {
           width: 100%;
-          height: 170px;
+          height: 220px;
           margin: 0 auto;
           padding: 0;
         }
@@ -124,7 +124,7 @@ const Item = ({ url, url2, txt }) => {
           outline: none;
           background: transparent;
           padding: 0;
-          width: 340px;
+          width: 100%;
         }
         @media screen and (max-width: 480px) {
           .gallery {
@@ -145,7 +145,7 @@ const Item = ({ url, url2, txt }) => {
           <button className='img-btn' onClick={() => setIsOpen(!isOpen)}>
             <img src={url2} alt='video' />
           </button>
-          {txt}
+          <div>{txt}</div>
         </figure>
 
         <img
