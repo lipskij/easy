@@ -74,6 +74,7 @@ const CulturalEvents = () => {
           swipe: true,
           touchMove: true,
           swipeToSlide: true,
+          centerPadding: "-10px",
         },
       },
     ],

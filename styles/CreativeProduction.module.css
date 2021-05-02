@@ -239,7 +239,7 @@
     height: 45vh;
   }
   .slide img {
-    width: 390px;
+    width: auto;
     height: 150px;
   }
   .onHoverDiv button {
