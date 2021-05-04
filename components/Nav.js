@@ -21,9 +21,7 @@ const Nav = () => {
       setOffset(window.pageYOffset);
     };
     return () => {
-      window.onscroll = () => {
-        setOffset(0);
-      };
+      setOffset(0);
     };
   }, []);
 
@@ -64,7 +62,9 @@ const Nav = () => {
         </li>
         <li>
           <Link href='/contacts'>
-            <a name='contacts' href='/contacts'>Contacts</a>
+            <a name='contacts' href='/contacts'>
+              Contacts
+            </a>
           </Link>
         </li>
       </ul>
@@ -92,7 +92,9 @@ const Nav = () => {
           </li>
           <li>
             <Link href='/contacts'>
-              <a name='contacts' href='/contacts'>Contacts</a>
+              <a name='contacts' href='/contacts'>
+                Contacts
+              </a>
             </Link>
           </li>
         </ul>

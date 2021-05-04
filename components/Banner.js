@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { MdKeyboardArrowDown } from "react-icons/md";
+// import NewBanner from "./NewBanner";
 
 // baner video 15s
 // after banner 2 buttons 'art' 'commerce': DONE
@@ -27,6 +28,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Banner = () => {
   return (
+    // <NewBanner />
     <>
       <div className='homebtndiv'>
         <button className='homebtn'>
