@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -28,7 +29,9 @@ const About = () => {
         </div>
 
         <div className='about-btn'>
-          <button>CONTACTS</button>
+          <Link href='/contacts'>
+            <button>CONTACTS</button>
+          </Link>
         </div>
       </div>
     </>

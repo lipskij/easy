@@ -68,7 +68,7 @@ const Banner = () => {
       </div>
       <div className='banner-button'>
         <Link href='/#about'>
-          <a data-page='#about'>
+          <a data-page='#about' aria-label='arrow-down' rel="noopener">
             <MdKeyboardArrowDown size={100} />
           </a>
         </Link>
