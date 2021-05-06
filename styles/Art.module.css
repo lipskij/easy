@@ -26,7 +26,6 @@
   color: aliceblue;
   transition-duration: 0.3s;
   font-size: 1.2rem;
-  border-radius: 5px;
   border: solid thin white;
 }
 
@@ -50,13 +49,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80vw;
+  width: 90vw;
+  height: 100%;
+
   text-align: center;
   line-height: 2;
 }
 
 .dirbtuvesCell {
-  height: 43rem;
+  height: 100%;
+  margin: 2rem 0 2rem 0;
 }
 
 /* video modal */
@@ -146,6 +148,10 @@
     min-width: 95vw;
     left: 0;
     top: 50%;
+  }
+  .dirbtuvesCell img {
+    width: 300px;
+    height: auto;
   }
 }
 

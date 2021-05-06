@@ -22,28 +22,28 @@ const Contacts = () => {
         <div className={styles.list}>
           <div className={styles.listItem}>
             <Link href='https://www.youtube.com/channel/UC5Vj1RUDT50AN21wZqGvq3Q'>
-              <a className={styles.logo} target='_blank' rel='noopener'>
+              <a className={styles.logo} target='_blank' rel='noopener' aria-label='youtube'>
                 <FaYoutube className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
           <div className={styles.listItem}>
             <Link href='https://www.facebook.com/easycreativeproduction/'>
-              <a className={styles.logo} target='_blank' rel='noopener'>
+              <a className={styles.logo} target='_blank' rel='noopener' aria-label='facebook'>
                 <AiFillFacebook className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
           <div className={styles.listItem}>
             <Link href='https://vimeo.com/user9888997'>
-              <a className={styles.logo} target='_blank' rel='noopener'>
+              <a className={styles.logo} target='_blank' rel='noopener' aria-label='vimeo'>
                 <FaVimeoV className={styles.icons} size={32} />
               </a>
             </Link>
           </div>
           <div className={styles.listItem}>
             <Link href='https://www.instagram.com/easycreativeproduction/'>
-              <a className={styles.logo} target='_blank' rel='noopener'>
+              <a className={styles.logo} target='_blank' rel='noopener' aria-label='instagram'>
                 <AiFillInstagram className={styles.icons} size={32} />
               </a>
             </Link>

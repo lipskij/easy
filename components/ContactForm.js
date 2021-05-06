@@ -78,7 +78,7 @@ export default function ContactForm() {
           </div>
           <div>
             <button type='submit' className={styles.button}>
-              Siusti
+              Submit
             </button>
           </div>
         </form>
