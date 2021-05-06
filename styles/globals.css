@@ -9,7 +9,7 @@ body {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: #16161d;
 }
 
@@ -21,7 +21,6 @@ p {
   color: white;
   font-weight: 100;
   font-family: 'Raleway', sans-serif;
-
 }
 
 nav {
@@ -189,29 +188,56 @@ nav li {
   width: 300px;
   height: 200px;
 }
-
+/* about component index */
 .about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 90vw;
-  gap: 5rem;
   justify-content: center;
+  align-items: center;
   line-height: 2;
-  padding: 14rem 0 10rem 0;
+  padding: 15rem 0 10rem 0;
 }
 
-.about img {
-  width: 600px;
+.about-image {
+  width: 90vw;
+  height: 60vh;
+}
+
+.about-picture {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: grey;
+  left: 20%;
 }
 
 .about-txt {
-  padding-top: 5rem;
+  width: 67%;
 }
 
-.about-txt h2 {
-  margin-top: 2rem;
+.about h1 {
+  margin: 3rem;
+  font-size: 3rem;
 }
+
+.about p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-btn {
+  display: flex;
+  width: 60vw;
+}
+
+.about button {
+  padding: 1rem;
+  color: #16161d;
+  font-size: 1rem;
+}
+/* about component index */
 
 .slick-prev {
   left: -3%;

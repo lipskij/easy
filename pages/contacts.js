@@ -51,8 +51,8 @@ const Contacts = () => {
         </div>
         <div className={styles.contactsCell}>
           <div>
-            <h2>AlGINA Bedulskė</h2>
-            <h3>EASY Art Director</h3>
+            <h1>AlGINA Bedulskė</h1>
+            <h2>EASY Art Director</h2>
             <p>+370 345 3453</p>
             <p>mailas@emailas.com</p>
           </div>
