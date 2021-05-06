@@ -64,8 +64,8 @@
 .closeBtn {
   display: flex;
   position: fixed;
-  width: 100vw;
-  left: 45%;
+  width: auto;
+  left: 94%;
   right: 0;
   top: 10%;
   bottom: 0;
@@ -131,7 +131,7 @@
     font-size: 1.5rem;
   }
   .closeBtn {
-    left: 38%;
+    left: 80%;
     top: 15%;
   }
   .onHoverDiv {

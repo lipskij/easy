@@ -5,7 +5,7 @@ import styles from "../styles/Art.module.css";
 
 // add on hover image and text
 
-const OpenModal = ({ setIsOpen, url, isOpen, portalContainer, txt }) => {
+const OpenModal = ({ setIsOpen, url, isOpen, portalContainer }) => {
   return isOpen
     ? ReactDOM.createPortal(
         <div className='isOpen'>
@@ -48,6 +48,9 @@ const OpenModal = ({ setIsOpen, url, isOpen, portalContainer, txt }) => {
               background-color: rgba(0, 0, 0, 0);
               display: flex;
             }
+            .img-btn video {
+              z-index: 10;
+            }
             @media screen and (max-width: 480px) {
               .gallery {
               }
@@ -70,15 +73,12 @@ const OpenModal = ({ setIsOpen, url, isOpen, portalContainer, txt }) => {
             <figure className='gallery-image'>
               <button className='img-btn'>
                 <video
-                  // onPouse to fix err when pousing and clicking on the video window
-                  onPause={() => setIsOpen(!isOpen)}
                   width='100%'
                   height='auto'
                   autoPlay
                   controls
                   disablePictureInPicture
                   controlsList='nodownload noremoteplayback'
-                  onClick={() => setIsOpen(!isOpen)}
                 >
                   <source src={url} type='video/mp4' />
                   Your browser does not support the video tag.
