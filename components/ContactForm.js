@@ -1,24 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../styles/Contacts.module.css";
 
 export default function ContactForm() {
   const [text, setText] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [disabled, setDisabled] = useState(true);
+
+  useEffect(() => {
+    () => {
+      setDisabled();
+    };
+    return () => {
+      setDisabled(true);
+    };
+  }, [text, email, message]);
 
   const nameInput = (values) => {
     if (values.target.value.length > 25) {
       setText("Name is too long");
+    }
+    if (values.target.value.length === 0) {
+      setText("Enter your name");
     } else {
       setText("");
     }
   };
 
   const emailInput = (email) => {
-    console.log(email.target.value);
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!re.test(email.target.value)) {
       setEmail("Invalid email adress");
+      setDisabled(true);
       return re.test(email);
     } else {
       setEmail("");
@@ -28,10 +41,15 @@ export default function ContactForm() {
   const messageInput = (message) => {
     if (message.target.value.length > 200) {
       setMessage("Message is too long");
+    }
+    if (message.target.value.length === 0 || message.target.value.length <= 3) {
+      setMessage("Message has to be at least 5 letters");
     } else {
+      setDisabled(false);
       setMessage("");
     }
   };
+
   return (
     <div className={styles.emailCell}>
       <div className={styles.emailForm}>
@@ -77,7 +95,20 @@ export default function ContactForm() {
             ></textarea>
           </div>
           <div>
-            <button type='submit' className={styles.button}>
+            <button
+              type='submit'
+              className={styles.button}
+              disabled={disabled}
+              style={
+                disabled
+                  ? {
+                      background: "grey",
+                      color: "#fefefe",
+                      cursor: "not-allowed",
+                    }
+                  : null
+              }
+            >
               Submit
             </button>
           </div>

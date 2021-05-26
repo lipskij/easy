@@ -62,7 +62,7 @@
   width: 400px;
   height: 400px;
   background: grey;
-  margin: 0 0 0 4rem;
+  margin: 0 0 0 6rem;
 }
 
 .emailCell {
@@ -116,6 +116,7 @@
 
 .button:hover {
   background-color: black;
+  color: #4CAF50;
 }
 
 .icons {
