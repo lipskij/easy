@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import ReactDOM from "react-dom";
-import { FaRegWindowClose } from "react-icons/fa";
+import { FaRegWindowClose, FaRegPlayCircle } from "react-icons/fa";
 import styles from "../styles/Art.module.css";
 
 // add on hover image and text
@@ -126,6 +126,20 @@ const Item = ({ url, url2, txt }) => {
           padding: 0;
           width: 100%;
         }
+        .fig-btn {
+          display: flex;
+          flex-direction: column;
+        }
+        .fig-btn button{
+          transition-duration: 0.3s;
+          color: white;
+        }
+        .fig-btn button:hover {
+          cursor: pointer;
+          transform: scale(1.2);
+          transition-duration: 0.3s;
+          color: #38be51;
+        }
         @media screen and (max-width: 480px) {
           .gallery {
             margin: 0 auto;
@@ -153,7 +167,12 @@ const Item = ({ url, url2, txt }) => {
           <button className='img-btn' onClick={() => setIsOpen(!isOpen)}>
             <img src={url2} alt='video' />
           </button>
-          <div>{txt}</div>
+          <div className='fig-btn'>
+            {txt}
+            <button onClick={() => setIsOpen(!isOpen)} style={{background: 'transparent', border: 'none'}}>
+              <FaRegPlayCircle size={60} />
+            </button>
+          </div>
         </figure>
 
         <img
