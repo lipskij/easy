@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
+// import NewBanner from '../components/NewBanner'
 import About from '../components/About';
 import Nav from "../components/Nav";
 

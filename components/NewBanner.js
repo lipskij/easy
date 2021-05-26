@@ -7,8 +7,8 @@ const NewBanner = () => {
     <>
       <div className='banner'>
         <div>
-          <h1>EASY Production</h1>
-          <h2>Short Movies, Commercials, Art</h2>
+          <h1>EASY</h1>
+          <h2>Short Movies, Commercials, Filmmaking Art</h2>
         </div>
         <div className='banner-btn'>
           <Link href='/creativeProduction'>
