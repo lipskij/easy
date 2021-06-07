@@ -9,9 +9,18 @@
   padding: 3rem 0 5rem 0;
 }
 
-.main h1,
+.main h1 {
+  font-size: 3rem;
+  padding-top: 3rem;
+}
+
 .main h2 {
   padding: 3rem 0 3rem 0;
+  font-size: 2rem;
+}
+
+.main p {
+  font-size: 1.3rem;
 }
 
 .commercialSection {
@@ -50,8 +59,7 @@
 }
 .onHoverDiv p {
   margin: 0.5rem 0 0.5rem 0;
-  font-size: 0.9rem;
-  width: 450px;
+  max-width: 450px;
 }
 .onHoverDiv img {
   opacity: 40%;
@@ -126,7 +134,7 @@
 }
 
 .secondSection {
-  width: 80vw;
+  width: 90vw;
 }
 
 .secondSection img {

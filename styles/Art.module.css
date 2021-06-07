@@ -51,7 +51,6 @@
   align-items: center;
   width: 90vw;
   height: 100%;
-
   text-align: center;
   line-height: 2;
 }
@@ -59,6 +58,10 @@
 .dirbtuvesCell {
   height: 100%;
   margin: 2rem 0 2rem 0;
+}
+
+.dirbtuvesCell p {
+  font-size: 1.3rem;
 }
 
 /* video modal */
