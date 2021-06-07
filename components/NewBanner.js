@@ -24,7 +24,7 @@ const NewBanner = () => {
         </div>
         <div className='banner-button'>
           <Link href='/#about'>
-            <a data-page='#about'>
+            <a data-page='#about' name='about-arrow' aria-label='about-arrow'>
               <MdKeyboardArrowDown size={120} />
             </a>
           </Link>
