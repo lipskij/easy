@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +11,7 @@ body {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #16161d;
 }
 
@@ -19,8 +21,6 @@ h3,
 h4,
 p {
   color: white;
-  font-weight: 100;
-  font-family: 'Raleway', sans-serif;
 }
 
 nav {
@@ -55,7 +55,8 @@ nav li {
   text-decoration: none;
   list-style: none;
   padding-right: 4rem;
-  font-size: 1rem;
+  /* font-family: 'Antic Didone', serif; */
+  font-size: 1.3rem;
 }
 
 .footer {
