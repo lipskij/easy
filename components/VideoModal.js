@@ -109,7 +109,7 @@ const Item = ({ url, url2, txt }) => {
           margin: 0;
         }
         .gallery img {
-          width: 100%;
+          max-width: 100%;
           height: 220px;
         }
         .gallery-image {

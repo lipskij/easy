@@ -2,24 +2,24 @@ import React from "react";
 import VideoModal from "./VideoModal";
 
 const FetchData = [
-  {
-    url: "/video/backs1.mp4",
-    url2: "/images/backs1.png",
-    txt: (
-      <p>
-        The Backs <br></br> Here Right Next To You
-      </p>
-    ),
-  },
-  {
-    url: "/video/backs2.mp4",
-    url2: "/images/backs2.png",
-    txt: (
-      <p>
-        The Backs <br></br> It Hurts
-      </p>
-    ),
-  },
+  // {
+  //   url: "/video/backs1.mp4",
+  //   url2: "/images/backs1.png",
+  //   txt: (
+  //     <p>
+  //       The Backs <br></br> Here Right Next To You
+  //     </p>
+  //   ),
+  // },
+  // {
+  //   url: "/video/backs2.mp4",
+  //   url2: "/images/backs2.png",
+  //   txt: (
+  //     <p>
+  //       The Backs <br></br> It Hurts
+  //     </p>
+  //   ),
+  // },
   {
     url: "/video/ball.mp4",
     url2: "/images/ball1.png",
@@ -87,6 +87,8 @@ function Gal() {
           transform: scale(1);
           column-count: 3;
           gap: 0px;
+          height: 100vh;
+          padding-top: 5rem;
         }
 
         @media screen and (max-width: 900px) {
