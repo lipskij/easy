@@ -5,8 +5,6 @@ import Footer from "../components/Footer";
 import styles from "../styles/Art.module.css";
 import VideoData from "../components/VideoData";
 
-// dar du video gaminasi
-
 const Art = () => {
   return (
     <div>

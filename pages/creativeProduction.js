@@ -102,7 +102,6 @@ const CulturalEvents = () => {
       <Nav />
       <main className={styles.main}>
         <h1>Creative Production</h1>
-        <h2>Reklamos</h2>
         <section className={styles.commercialSection}>
           <div
             onMouseEnter={(e) => {
