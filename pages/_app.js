@@ -1,36 +1,39 @@
 import "../styles/globals.css";
+import { ThemeProvider } from "../components/ThemeContext";
 import { motion, AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps, router }) {
   return (
-    <AnimatePresence>
-      <motion.div
-        key={router.route}
-        initial='pageInitial'
-        animate='pageAnimate'
-        exit='pageExit'
-        variants={{
-          pageInitial: {
-            opacity: 0,
-          },
-          pageAnimate: {
-            opacity: 1,
-            transition: {
-              duration: 0.3,
+    <ThemeProvider>
+      <AnimatePresence>
+        <motion.div
+          key={router.route}
+          initial='pageInitial'
+          animate='pageAnimate'
+          exit='pageExit'
+          variants={{
+            pageInitial: {
+              opacity: 0,
             },
-          },
-          pageExit: {
-            backgroundColor: "#3d3d43",
-            opacity: 0,
-            transition: {
-              duration: 0.3,
+            pageAnimate: {
+              opacity: 1,
+              transition: {
+                duration: 0.3,
+              },
             },
-          },
-        }}
-      >
-        <Component {...pageProps} />
-      </motion.div>
-    </AnimatePresence>
+            pageExit: {
+              backgroundColor: "#3d3d43",
+              opacity: 0,
+              transition: {
+                duration: 0.3,
+              },
+            },
+          }}
+        >
+          <Component {...pageProps} />
+        </motion.div>
+      </AnimatePresence>
+    </ThemeProvider>
   );
 }
 
