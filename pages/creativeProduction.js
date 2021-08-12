@@ -5,6 +5,8 @@ import Footer from "../components/Footer";
 import styles from "../styles/CreativeProduction.module.css";
 import Link from "next/link";
 import Slider from "react-slick";
+import VideoData from "../components/VideoData";
+import styles2 from "../styles/Art.module.css";
 
 const photos = [
   {
@@ -100,10 +102,10 @@ const CulturalEvents = () => {
         <meta name='description' content='Easy creative production' />
       </Head>
       <Nav />
-      <main className={styles.main}>
+      <main className={styles2.main}>
         <h1>Creative Production</h1>
-        <section className={styles.commercialSection}>
-          <div
+        <section className={styles2.main}>
+          {/* <div
             onMouseEnter={(e) => {
               setStyle(true);
             }}
@@ -247,7 +249,8 @@ const CulturalEvents = () => {
               <source srcSet='/reklamos/reklama4.webp' type='image/webp' />
               <img src='/reklamos/reklama4.png' alt='logo' />
             </picture>
-          </div>
+          </div> */}
+          <VideoData />
         </section>
         <div className={styles.button}>
           <Link href='/commercial'>

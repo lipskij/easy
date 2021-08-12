@@ -87,7 +87,6 @@ function Gal() {
           transform: scale(1);
           column-count: 3;
           gap: 0px;
-          height: 100vh;
           padding-top: 5rem;
         }
 
